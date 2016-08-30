@@ -110,13 +110,8 @@
 			PBXWorkspaceStateSaveDate = 494245714;
 		};
 		perUserProjectItems = {
-			4214F2A41D7597BB00012A2E /* PBXTextBookmark */ = 4214F2A41D7597BB00012A2E /* PBXTextBookmark */;
-			4214F2A51D7597BB00012A2E /* PBXTextBookmark */ = 4214F2A51D7597BB00012A2E /* PBXTextBookmark */;
-			4214F2A61D7597BB00012A2E /* PBXTextBookmark */ = 4214F2A61D7597BB00012A2E /* PBXTextBookmark */;
-			4214F2A71D7597BB00012A2E /* XCBuildMessageTextBookmark */ = 4214F2A71D7597BB00012A2E /* XCBuildMessageTextBookmark */;
-			4214F2A81D7597BB00012A2E /* PBXTextBookmark */ = 4214F2A81D7597BB00012A2E /* PBXTextBookmark */;
 			4214F2AE1D7597CF00012A2E /* XCBuildMessageTextBookmark */ = 4214F2AE1D7597CF00012A2E /* XCBuildMessageTextBookmark */;
-			4214F2AF1D7597CF00012A2E /* PBXTextBookmark */ = 4214F2AF1D7597CF00012A2E /* PBXTextBookmark */;
+			4214F2B21D75986300012A2E /* PBXTextBookmark */ = 4214F2B21D75986300012A2E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4278C5051D754F460093B7F2 /* Source Control */;
 		userBuildSettings = {
@@ -272,55 +267,6 @@
 		sourceDirectories = (
 		);
 	};
-	4214F2A41D7597BB00012A2E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 043627A800868916C697A10E /* macosx_input.m */;
-		name = "macosx_input.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 678;
-		vrLoc = 0;
-	};
-	4214F2A51D7597BB00012A2E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 043627A700868916C697A10E /* macosx_glimp.m */;
-		name = "macosx_glimp.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 798;
-		vrLoc = 2753;
-	};
-	4214F2A61D7597BB00012A2E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 012ADB4600868211C697A10E /* ui_players.c */;
-		name = "ui_players.c: 1206";
-		rLen = 0;
-		rLoc = 29619;
-		rType = 0;
-		vrLen = 1426;
-		vrLoc = 29186;
-	};
-	4214F2A71D7597BB00012A2E /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected expression before 'byte'";
-		fRef = 012ADA6000868211C697A10E /* q_math.c */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 838;
-		rType = 1;
-	};
-	4214F2A81D7597BB00012A2E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 012ADA6000868211C697A10E /* q_math.c */;
-		name = "q_math.c: 839";
-		rLen = 0;
-		rLoc = 21384;
-		rType = 0;
-		vrLen = 662;
-		vrLoc = 20619;
-	};
 	4214F2AE1D7597CF00012A2E /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Compile /Users/bazilio/Developer/Quake-III-Arena/code/macosx/macosx_input.m";
@@ -330,7 +276,7 @@
 		rLoc = 0;
 		rType = 1;
 	};
-	4214F2AF1D7597CF00012A2E /* PBXTextBookmark */ = {
+	4214F2B21D75986300012A2E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 043627A800868916C697A10E /* macosx_input.m */;
 		name = "macosx_input.m: 1";

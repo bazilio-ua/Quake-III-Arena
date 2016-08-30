@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -2181,35 +2181,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4214EEDE1D75975D00012A2E /* Quake3 (Application) (Upgraded) */;
+			remoteGlobalIDString = 4214EEDE1D75975D00012A2E;
 			remoteInfo = "Quake3 (Application) (Upgraded)";
 		};
 		4214F28B1D75975E00012A2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4214EFB71D75975D00012A2E /* Quake3 G4 (Application) (Upgraded) */;
+			remoteGlobalIDString = 4214EFB71D75975D00012A2E;
 			remoteInfo = "Quake3 G4 (Application) (Upgraded)";
 		};
 		4214F28D1D75975E00012A2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4214F0901D75975E00012A2E /* qagame (Upgraded) */;
+			remoteGlobalIDString = 4214F0901D75975E00012A2E;
 			remoteInfo = "qagame (Upgraded)";
 		};
 		4214F28F1D75975E00012A2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4214F0C61D75975E00012A2E /* cgame (Upgraded) */;
+			remoteGlobalIDString = 4214F0C61D75975E00012A2E;
 			remoteInfo = "cgame (Upgraded)";
 		};
 		4214F2911D75975E00012A2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4214F0EE1D75975E00012A2E /* ui (Upgraded) */;
+			remoteGlobalIDString = 4214F0EE1D75975E00012A2E;
 			remoteInfo = "ui (Upgraded)";
 		};
 /* End PBXContainerItemProxy section */
@@ -4323,8 +4323,11 @@
 /* Begin PBXProject section */
 		0654BA41FE8ECEE0C697A12F /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 4278C4FC1D754F460093B7F2 /* Build configuration list for PBXProject "Quake3" */;
-			compatibilityVersion = "Xcode 3.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -5937,7 +5940,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				NO_OPT_CFLAGS = "-O0 -fno-inline -fno-inline-functions";
@@ -5966,7 +5968,6 @@
 			buildSettings = {
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -6004,7 +6005,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6048,7 +6048,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MACOS_X,
@@ -6118,7 +6117,6 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6165,7 +6163,6 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MACOS_X,
@@ -6239,7 +6236,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = QGL_CHECK_GL_ERRORS;
@@ -6279,7 +6275,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-qagame__Upgraded_.plist";
@@ -6338,7 +6333,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = QGL_CHECK_GL_ERRORS;
@@ -6378,7 +6372,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Info-cgame__Upgraded_.plist";
@@ -6436,7 +6429,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = QGL_CHECK_GL_ERRORS;
@@ -6472,7 +6464,6 @@
 			buildSettings = {
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "Info-ui__Upgraded_.plist";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
@@ -6525,7 +6516,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6566,7 +6556,6 @@
 			buildSettings = {
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6636,7 +6625,6 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_ALTIVEC_EXTENSIONS = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6680,7 +6668,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6751,18 +6738,21 @@
 		4278C4E11D754F460093B7F2 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Development;
 		};
 		4278C4E21D754F460093B7F2 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Deployment;
 		};
 		4278C4E31D754F460093B7F2 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Default;
 		};
@@ -6772,7 +6762,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				NO_OPT_CFLAGS = "-O0 -fno-inline -fno-inline-functions";
@@ -6801,7 +6790,6 @@
 			buildSettings = {
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -6839,7 +6827,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "";
@@ -6880,7 +6867,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
@@ -6945,10 +6931,9 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				LIBRARY_SEARCH_PATHS = (
@@ -6990,9 +6975,8 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				LIBRARY_SEARCH_PATHS = (
@@ -7027,7 +7011,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				LIBRARY_SEARCH_PATHS = (
@@ -7063,7 +7047,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "";
@@ -7102,7 +7085,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				LIBRARY_SEARCH_PATHS = "";
@@ -7157,7 +7139,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "";
@@ -7196,7 +7177,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				LIBRARY_SEARCH_PATHS = "";
@@ -7250,7 +7230,6 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
@@ -7285,7 +7264,6 @@
 			buildSettings = {
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
@@ -7335,10 +7313,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",
@@ -7377,9 +7354,8 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				DEBUGGING_SYMBOLS = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",
@@ -7411,7 +7387,7 @@
 			buildSettings = {
 				DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",
@@ -7444,10 +7420,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",
@@ -7489,9 +7464,8 @@
 				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				DEBUGGING_SYMBOLS = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",
@@ -7526,7 +7500,7 @@
 			buildSettings = {
 				DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_VERSION = 3.3;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"\"/Users/zaphod/Quake3/code/macosx/GameRanger SDK/Libraries\"",

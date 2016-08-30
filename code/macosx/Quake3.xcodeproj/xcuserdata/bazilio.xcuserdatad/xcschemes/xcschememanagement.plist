@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>All (Copied).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Dedicated Server (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Dedicated Server G4 (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Dedicated Server G4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Dedicated Server.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Quake3 (Application) (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Quake3 (Application).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Quake3 G4 (Application) (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Quake3 G4 (Application).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>cgame (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>cgame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>qagame (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>qagame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>ui (Upgraded).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>ui.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>00F5ED38FEBA95B7C697A12F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00F5ED90FEBA9615C697A12F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>016EAE0300B4BDD1C697A10E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0170304B00B4885DC697A10E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0170311C00B49352C697A10E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0654BA5CFE8ECEE0C697A12F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214EECF1D75975D00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214EEDE1D75975D00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214EFB71D75975D00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214F0901D75975E00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214F0C61D75975E00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214F0EE1D75975E00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214F1091D75975E00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4214F1C91D75975E00012A2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FF0904804896C0E00030DA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FF0912704896C1600030DA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
