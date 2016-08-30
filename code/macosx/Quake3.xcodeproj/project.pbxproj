@@ -6,24 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4214EECF1D75975D00012A2E /* All (Copied) */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4214EEDA1D75975D00012A2E /* Build configuration list for PBXAggregateTarget "All (Copied)" */;
-			buildPhases = (
-			);
-			dependencies = (
-				4214F28A1D75975E00012A2E /* PBXTargetDependency */,
-				4214F28C1D75975E00012A2E /* PBXTargetDependency */,
-				4214F28E1D75975E00012A2E /* PBXTargetDependency */,
-				4214F2901D75975E00012A2E /* PBXTargetDependency */,
-				4214F2921D75975E00012A2E /* PBXTargetDependency */,
-			);
-			name = "All (Copied)";
-			productName = All;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		4214EEE01D75975D00012A2E /* macosx_glimp.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A600868916C697A10E /* macosx_glimp.h */; };
 		4214EEE11D75975D00012A2E /* macosx_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A900868916C697A10E /* macosx_local.h */; };
@@ -956,44 +938,6 @@
 			);
 		};
 /* End PBXBuildRule section */
-
-/* Begin PBXContainerItemProxy section */
-		4214F2891D75975E00012A2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4214EEDE1D75975D00012A2E;
-			remoteInfo = "Quake3 (Application) (Upgraded)";
-		};
-		4214F28B1D75975E00012A2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4214EFB71D75975D00012A2E;
-			remoteInfo = "Quake3 G4 (Application) (Upgraded)";
-		};
-		4214F28D1D75975E00012A2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4214F0901D75975E00012A2E;
-			remoteInfo = "qagame (Upgraded)";
-		};
-		4214F28F1D75975E00012A2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4214F0C61D75975E00012A2E;
-			remoteInfo = "cgame (Upgraded)";
-		};
-		4214F2911D75975E00012A2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0654BA41FE8ECEE0C697A12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4214F0EE1D75975E00012A2E;
-			remoteInfo = "ui (Upgraded)";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E9D914FEDB4D29C697A12F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
@@ -2759,7 +2703,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4214EECF1D75975D00012A2E /* All (Copied) */,
 				4214EEDE1D75975D00012A2E /* Quake3 (Application) (Upgraded) */,
 				4214EFB71D75975D00012A2E /* Quake3 G4 (Application) (Upgraded) */,
 				4214F0901D75975E00012A2E /* qagame (Upgraded) */,
@@ -3518,99 +3461,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4214F28A1D75975E00012A2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4214EEDE1D75975D00012A2E /* Quake3 (Application) (Upgraded) */;
-			targetProxy = 4214F2891D75975E00012A2E /* PBXContainerItemProxy */;
-		};
-		4214F28C1D75975E00012A2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4214EFB71D75975D00012A2E /* Quake3 G4 (Application) (Upgraded) */;
-			targetProxy = 4214F28B1D75975E00012A2E /* PBXContainerItemProxy */;
-		};
-		4214F28E1D75975E00012A2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4214F0901D75975E00012A2E /* qagame (Upgraded) */;
-			targetProxy = 4214F28D1D75975E00012A2E /* PBXContainerItemProxy */;
-		};
-		4214F2901D75975E00012A2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4214F0C61D75975E00012A2E /* cgame (Upgraded) */;
-			targetProxy = 4214F28F1D75975E00012A2E /* PBXContainerItemProxy */;
-		};
-		4214F2921D75975E00012A2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4214F0EE1D75975E00012A2E /* ui (Upgraded) */;
-			targetProxy = 4214F2911D75975E00012A2E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		4214EEDB1D75975D00012A2E /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				NO_OPT_CFLAGS = "-O0 -fno-inline -fno-inline-functions";
-				OTHER_CFLAGS = (
-					"-g",
-					"-Wall",
-					"-DQGL_CHECK_GL_ERRORS",
-					"$(NO_OPT_CFLAGS)",
-					"$(COMMON_CFLAGS)",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = All;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4214EEDC1D75975D00012A2E /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
-				COPY_PHASE_STRIP = YES;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = All;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		4214EEDD1D75975D00012A2E /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = All;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Default;
-		};
 		4214EFB11D75975D00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4372,16 +4223,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4214EEDA1D75975D00012A2E /* Build configuration list for PBXAggregateTarget "All (Copied)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4214EEDB1D75975D00012A2E /* Development */,
-				4214EEDC1D75975D00012A2E /* Deployment */,
-				4214EEDD1D75975D00012A2E /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
 		4214EFB01D75975D00012A2E /* Build configuration list for PBXNativeTarget "Quake3 (Application) (Upgraded)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
