@@ -98,7 +98,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
 // this is the define for determining if we have an asm version of a C function
-#if (defined _M_IX86 || defined __i386__) && !defined __sun__  && !defined __LCC__
+#if (defined _M_IX86 || defined __i386__) && !defined __sun__  && !defined __LCC__ && !defined __MACH__ // EER1
 #define id386	1
 #else
 #define id386	0
@@ -163,13 +163,14 @@ static ID_INLINE float BigFloat(const float *l) { FloatSwap(l); }
 
 //======================= MAC OS X DEFINES =====================
 
-#if defined(MACOS_X)
+#if defined(__MACH__) // EER1
 
 #define MAC_STATIC
 #define __cdecl
 #define __declspec(x)
 #define stricmp strcasecmp
 #define ID_INLINE inline 
+#define C_ONLY
 
 #ifdef __ppc__
 #define CPUSTRING	"MacOSX-ppc"

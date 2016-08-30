@@ -325,7 +325,7 @@ Dlls will call this directly
 ============
 */
 int QDECL VM_DllSyscall( int arg, ... ) {
-#if ((defined __linux__) && (defined __powerpc__))
+#if ((defined __linux__) && (defined __powerpc__) || (defined __MACH__)) // EER1
   // rcg010206 - see commentary above
   int args[16];
   int i;

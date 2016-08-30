@@ -205,11 +205,11 @@ static void Sys_StartMouseInput()
     if (in_disableOSMouseScaling->integer==0 && (eventStatus = NXOpenEventStatus())) {
         NXMouseScaling newScaling;
 
-        NXGetMouseScaling(eventStatus, &originalScaling);
+//        NXGetMouseScaling(eventStatus, &originalScaling); // EER1, deprecated
         newScaling.numScaleLevels = 1;
         newScaling.scaleThresholds[0] = 1;
         newScaling.scaleFactors[0] = -1;
-        NXSetMouseScaling(eventStatus, &newScaling);
+//        NXSetMouseScaling(eventStatus, &newScaling); // EER1, deprecated
         NXCloseEventStatus(eventStatus);
     }
     
@@ -228,7 +228,7 @@ static void Sys_StopMouseInput()
     
     // Restore mouse scaling
     if (in_disableOSMouseScaling->integer == 0 && (eventStatus = NXOpenEventStatus())) {
-        NXSetMouseScaling(eventStatus, &originalScaling);
+//        NXSetMouseScaling(eventStatus, &originalScaling); // EER1, deprecated
         NXCloseEventStatus(eventStatus);
     }
 

@@ -203,7 +203,6 @@
 		4214EFA31D75975D00012A2E /* macosx_display.m in Sources */ = {isa = PBXBuildFile; fileRef = 015ECC0D00894EC0C697A10E /* macosx_display.m */; };
 		4214EFA41D75975D00012A2E /* macosx_glsmp_mutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B4A3B00ACCF9FC697A10E /* macosx_glsmp_mutex.m */; };
 		4214EFA51D75975D00012A2E /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 016F1B6300ACDA9BC697A10E /* huffman.c */; };
-		4214EFA61D75975D00012A2E /* vm_ppc_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FB23863047AB9F60098ACF3 /* vm_ppc_new.c */; };
 		4214EFA71D75975D00012A2E /* cm_polylib.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF100868211C697A10E /* cm_polylib.c */; };
 		4214EFA91D75975D00012A2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA58FE8ECEE0C697A12F /* OpenGL.framework */; };
 		4214EFAA1D75975D00012A2E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5AFE8ECEE0C697A12F /* AppKit.framework */; };
@@ -211,210 +210,6 @@
 		4214EFAC1D75975D00012A2E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9D914FEDB4D29C697A12F /* CoreAudio.framework */; };
 		4214EFAD1D75975D00012A2E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F564505801E623B201F62882 /* IOKit.framework */; };
 		4214EFAE1D75975D00012A2E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA59FE8ECEE0C697A12F /* Carbon.framework */; };
-		4214EFB91D75975D00012A2E /* macosx_glimp.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A600868916C697A10E /* macosx_glimp.h */; };
-		4214EFBA1D75975D00012A2E /* macosx_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A900868916C697A10E /* macosx_local.h */; };
-		4214EFBB1D75975D00012A2E /* macosx_timers.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627AE00868916C697A10E /* macosx_timers.h */; };
-		4214EFBC1D75975D00012A2E /* Q3Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627B000868916C697A10E /* Q3Controller.h */; };
-		4214EFBD1D75975D00012A2E /* q_shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA6200868211C697A10E /* q_shared.h */; };
-		4214EFBE1D75975D00012A2E /* vm_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0300868211C697A10E /* vm_local.h */; };
-		4214EFBF1D75975D00012A2E /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0000868211C697A10E /* unzip.h */; };
-		4214EFC01D75975D00012A2E /* cm_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAEE00868211C697A10E /* cm_local.h */; };
-		4214EFC11D75975D00012A2E /* cm_patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF000868211C697A10E /* cm_patch.h */; };
-		4214EFC21D75975D00012A2E /* cm_polylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF200868211C697A10E /* cm_polylib.h */; };
-		4214EFC31D75975D00012A2E /* cm_public.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF300868211C697A10E /* cm_public.h */; };
-		4214EFC41D75975D00012A2E /* qcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAFD00868211C697A10E /* qcommon.h */; };
-		4214EFC51D75975D00012A2E /* qfiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAFE00868211C697A10E /* qfiles.h */; };
-		4214EFC61D75975D00012A2E /* qgl.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0800868211C697A10E /* qgl.h */; };
-		4214EFC71D75975D00012A2E /* qgl_linked.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0900868211C697A10E /* qgl_linked.h */; };
-		4214EFC81D75975D00012A2E /* tr_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB1400868211C697A10E /* tr_local.h */; };
-		4214EFC91D75975D00012A2E /* tr_public.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB1A00868211C697A10E /* tr_public.h */; };
-		4214EFCA1D75975D00012A2E /* server.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB2400868211C697A10E /* server.h */; };
-		4214EFCB1D75975D00012A2E /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD9B000868211C697A10E /* client.h */; };
-		4214EFCC1D75975D00012A2E /* keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD9B100868211C697A10E /* keys.h */; };
-		4214EFCD1D75975D00012A2E /* snd_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD9B400868211C697A10E /* snd_local.h */; };
-		4214EFCE1D75975D00012A2E /* snd_public.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD9B700868211C697A10E /* snd_public.h */; };
-		4214EFCF1D75975D00012A2E /* util_str.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB3F00868211C697A10E /* util_str.h */; };
-		4214EFD01D75975D00012A2E /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA8C00868211C697A10E /* jerror.h */; };
-		4214EFD11D75975D00012A2E /* jmemsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA9B00868211C697A10E /* jmemsys.h */; };
-		4214EFD21D75975D00012A2E /* jchuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA6C00868211C697A10E /* jchuff.h */; };
-		4214EFD31D75975D00012A2E /* jdhuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA8100868211C697A10E /* jdhuff.h */; };
-		4214EFD41D75975D00012A2E /* l_precomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93700868211C697A10E /* l_precomp.h */; };
-		4214EFD51D75975D00012A2E /* l_libvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93100868211C697A10E /* l_libvar.h */; };
-		4214EFD61D75975D00012A2E /* l_script.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93900868211C697A10E /* l_script.h */; };
-		4214EFD71D75975D00012A2E /* l_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93500868211C697A10E /* l_memory.h */; };
-		4214EFD81D75975D00012A2E /* l_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93300868211C697A10E /* l_log.h */; };
-		4214EFD91D75975D00012A2E /* be_aas_route.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91E00868211C697A10E /* be_aas_route.h */; };
-		4214EFDA1D75975D00012A2E /* be_aas_move.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91800868211C697A10E /* be_aas_move.h */; };
-		4214EFDB1D75975D00012A2E /* be_aas_sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92200868211C697A10E /* be_aas_sample.h */; };
-		4214EFDC1D75975D00012A2E /* be_aas_bsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90900868211C697A10E /* be_aas_bsp.h */; };
-		4214EFDD1D75975D00012A2E /* be_aas_debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90E00868211C697A10E /* be_aas_debug.h */; };
-		4214EFDE1D75975D00012A2E /* be_aas_reach.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91C00868211C697A10E /* be_aas_reach.h */; };
-		4214EFDF1D75975D00012A2E /* be_aas_main.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91600868211C697A10E /* be_aas_main.h */; };
-		4214EFE01D75975D00012A2E /* be_ai_weight.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92A00868211C697A10E /* be_ai_weight.h */; };
-		4214EFE11D75975D00012A2E /* be_aas_optimize.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91A00868211C697A10E /* be_aas_optimize.h */; };
-		4214EFE21D75975D00012A2E /* be_aas_routealt.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92000868211C697A10E /* be_aas_routealt.h */; };
-		4214EFE31D75975D00012A2E /* l_struct.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93B00868211C697A10E /* l_struct.h */; };
-		4214EFE41D75975D00012A2E /* be_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92D00868211C697A10E /* be_interface.h */; };
-		4214EFE51D75975D00012A2E /* l_crc.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92F00868211C697A10E /* l_crc.h */; };
-		4214EFE61D75975D00012A2E /* l_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93C00868211C697A10E /* l_utils.h */; };
-		4214EFE71D75975D00012A2E /* be_aas_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91300868211C697A10E /* be_aas_file.h */; };
-		4214EFE81D75975D00012A2E /* be_aas_entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91100868211C697A10E /* be_aas_entity.h */; };
-		4214EFE91D75975D00012A2E /* be_aas_cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90C00868211C697A10E /* be_aas_cluster.h */; };
-		4214EFEA1D75975D00012A2E /* be_aas_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90F00868211C697A10E /* be_aas_def.h */; };
-		4214EFEB1D75975D00012A2E /* be_aas_funcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91400868211C697A10E /* be_aas_funcs.h */; };
-		4214EFEC1D75975D00012A2E /* aasfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90800868211C697A10E /* aasfile.h */; };
-		4214EFED1D75975D00012A2E /* macosx_display.h in Headers */ = {isa = PBXBuildFile; fileRef = 015ECC0C00894EC0C697A10E /* macosx_display.h */; };
-		4214EFEE1D75975D00012A2E /* macosx_qgl.h in Headers */ = {isa = PBXBuildFile; fileRef = 011F78F200B25B65C697A10E /* macosx_qgl.h */; };
-		4214EFEF1D75975D00012A2E /* splines.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ED1435037096A001F6289A /* splines.h */; };
-		4214EFF11D75975D00012A2E /* Quake3.icns in Resources */ = {isa = PBXBuildFile; fileRef = 043627B300868916C697A10E /* Quake3.icns */; };
-		4214EFF21D75975D00012A2E /* Quake3.nib in Resources */ = {isa = PBXBuildFile; fileRef = 043627B200868916C697A10E /* Quake3.nib */; };
-		4214EFF31D75975D00012A2E /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043627B400868916C697A10E /* banner.jpg */; };
-		4214EFF51D75975D00012A2E /* macosx_glimp.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627A700868916C697A10E /* macosx_glimp.m */; };
-		4214EFF61D75975D00012A2E /* macosx_input.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627A800868916C697A10E /* macosx_input.m */; };
-		4214EFF71D75975D00012A2E /* macosx_sndcore.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AB00868916C697A10E /* macosx_sndcore.m */; };
-		4214EFF81D75975D00012A2E /* macosx_sys.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AD00868916C697A10E /* macosx_sys.m */; };
-		4214EFF91D75975D00012A2E /* macosx_timers.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AF00868916C697A10E /* macosx_timers.m */; };
-		4214EFFA1D75975D00012A2E /* Q3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627B100868916C697A10E /* Q3Controller.m */; };
-		4214EFFB1D75975D00012A2E /* cmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF600868211C697A10E /* cmd.c */; };
-		4214EFFC1D75975D00012A2E /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6100868211C697A10E /* q_shared.c */; };
-		4214EFFD1D75975D00012A2E /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6000868211C697A10E /* q_math.c */; };
-		4214EFFE1D75975D00012A2E /* tr_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1200868211C697A10E /* tr_init.c */; };
-		4214EFFF1D75975D00012A2E /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF700868211C697A10E /* common.c */; };
-		4214F0001D75975D00012A2E /* cvar.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF800868211C697A10E /* cvar.c */; };
-		4214F0011D75975D00012A2E /* files.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF900868211C697A10E /* files.c */; };
-		4214F0021D75975D00012A2E /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0100868211C697A10E /* vm.c */; };
-		4214F0031D75975D00012A2E /* vm_interpreted.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0200868211C697A10E /* vm_interpreted.c */; };
-		4214F0041D75975D00012A2E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFF00868211C697A10E /* unzip.c */; };
-		4214F0051D75975D00012A2E /* unix_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB5800868211C697A10E /* unix_shared.c */; };
-		4214F0061D75975D00012A2E /* cl_cgame.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9A600868211C697A10E /* cl_cgame.c */; };
-		4214F0071D75975D00012A2E /* cl_cin.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9A700868211C697A10E /* cl_cin.c */; };
-		4214F0081D75975D00012A2E /* cl_console.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9A800868211C697A10E /* cl_console.c */; };
-		4214F0091D75975D00012A2E /* cl_input.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9A900868211C697A10E /* cl_input.c */; };
-		4214F00A1D75975D00012A2E /* cl_keys.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AA00868211C697A10E /* cl_keys.c */; };
-		4214F00B1D75975D00012A2E /* cl_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AB00868211C697A10E /* cl_main.c */; };
-		4214F00C1D75975D00012A2E /* cl_net_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AC00868211C697A10E /* cl_net_chan.c */; };
-		4214F00D1D75975D00012A2E /* cl_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AD00868211C697A10E /* cl_parse.c */; };
-		4214F00E1D75975D00012A2E /* cl_scrn.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AE00868211C697A10E /* cl_scrn.c */; };
-		4214F00F1D75975D00012A2E /* cl_ui.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9AF00868211C697A10E /* cl_ui.c */; };
-		4214F0101D75975D00012A2E /* cm_load.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAED00868211C697A10E /* cm_load.c */; };
-		4214F0111D75975D00012A2E /* cm_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAEF00868211C697A10E /* cm_patch.c */; };
-		4214F0121D75975D00012A2E /* cm_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF400868211C697A10E /* cm_test.c */; };
-		4214F0131D75975D00012A2E /* cm_trace.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF500868211C697A10E /* cm_trace.c */; };
-		4214F0141D75975D00012A2E /* md4.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFA00868211C697A10E /* md4.c */; };
-		4214F0151D75975D00012A2E /* msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFB00868211C697A10E /* msg.c */; };
-		4214F0161D75975D00012A2E /* net_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFC00868211C697A10E /* net_chan.c */; };
-		4214F0171D75975D00012A2E /* tr_animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0A00868211C697A10E /* tr_animation.c */; };
-		4214F0181D75975D00012A2E /* tr_backend.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0B00868211C697A10E /* tr_backend.c */; };
-		4214F0191D75975D00012A2E /* tr_bsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0C00868211C697A10E /* tr_bsp.c */; };
-		4214F01A1D75975D00012A2E /* tr_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0D00868211C697A10E /* tr_cmds.c */; };
-		4214F01B1D75975D00012A2E /* tr_curve.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0E00868211C697A10E /* tr_curve.c */; };
-		4214F01C1D75975D00012A2E /* tr_flares.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0F00868211C697A10E /* tr_flares.c */; };
-		4214F01D1D75975D00012A2E /* tr_font.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1000868211C697A10E /* tr_font.c */; };
-		4214F01E1D75975D00012A2E /* tr_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1100868211C697A10E /* tr_image.c */; };
-		4214F01F1D75975D00012A2E /* tr_light.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1300868211C697A10E /* tr_light.c */; };
-		4214F0201D75975D00012A2E /* tr_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1500868211C697A10E /* tr_main.c */; };
-		4214F0211D75975D00012A2E /* tr_marks.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1600868211C697A10E /* tr_marks.c */; };
-		4214F0221D75975D00012A2E /* tr_mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1700868211C697A10E /* tr_mesh.c */; };
-		4214F0231D75975D00012A2E /* tr_model.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1800868211C697A10E /* tr_model.c */; };
-		4214F0241D75975D00012A2E /* tr_noise.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1900868211C697A10E /* tr_noise.c */; };
-		4214F0251D75975D00012A2E /* tr_scene.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1B00868211C697A10E /* tr_scene.c */; };
-		4214F0261D75975D00012A2E /* tr_shade.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1C00868211C697A10E /* tr_shade.c */; };
-		4214F0271D75975D00012A2E /* tr_shade_calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1D00868211C697A10E /* tr_shade_calc.c */; };
-		4214F0281D75975D00012A2E /* tr_shader.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1E00868211C697A10E /* tr_shader.c */; };
-		4214F0291D75975D00012A2E /* tr_shadows.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1F00868211C697A10E /* tr_shadows.c */; };
-		4214F02A1D75975D00012A2E /* tr_sky.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2000868211C697A10E /* tr_sky.c */; };
-		4214F02B1D75975D00012A2E /* tr_surface.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2100868211C697A10E /* tr_surface.c */; };
-		4214F02C1D75975D00012A2E /* tr_world.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2200868211C697A10E /* tr_world.c */; };
-		4214F02D1D75975D00012A2E /* sv_bot.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2500868211C697A10E /* sv_bot.c */; };
-		4214F02E1D75975D00012A2E /* sv_ccmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2600868211C697A10E /* sv_ccmds.c */; };
-		4214F02F1D75975D00012A2E /* sv_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2700868211C697A10E /* sv_client.c */; };
-		4214F0301D75975D00012A2E /* sv_game.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2800868211C697A10E /* sv_game.c */; };
-		4214F0311D75975D00012A2E /* sv_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2900868211C697A10E /* sv_init.c */; };
-		4214F0321D75975D00012A2E /* sv_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2A00868211C697A10E /* sv_main.c */; };
-		4214F0331D75975D00012A2E /* sv_net_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2B00868211C697A10E /* sv_net_chan.c */; };
-		4214F0341D75975D00012A2E /* sv_snapshot.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2D00868211C697A10E /* sv_snapshot.c */; };
-		4214F0351D75975D00012A2E /* sv_world.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2E00868211C697A10E /* sv_world.c */; };
-		4214F0361D75975D00012A2E /* unix_net.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB5700868211C697A10E /* unix_net.c */; };
-		4214F0371D75975D00012A2E /* snd_adpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9B200868211C697A10E /* snd_adpcm.c */; };
-		4214F0381D75975D00012A2E /* snd_dma.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9B300868211C697A10E /* snd_dma.c */; };
-		4214F0391D75975D00012A2E /* snd_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9B500868211C697A10E /* snd_mem.c */; };
-		4214F03A1D75975D00012A2E /* snd_mix.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9B600868211C697A10E /* snd_mix.c */; };
-		4214F03B1D75975D00012A2E /* snd_wavelet.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD9B800868211C697A10E /* snd_wavelet.c */; };
-		4214F03C1D75975D00012A2E /* splines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3B00868211C697A10E /* splines.cpp */; };
-		4214F03D1D75975D00012A2E /* q_parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3800868211C697A10E /* q_parse.cpp */; };
-		4214F03E1D75975D00012A2E /* util_str.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3E00868211C697A10E /* util_str.cpp */; };
-		4214F03F1D75975D00012A2E /* jmemmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9800868211C697A10E /* jmemmgr.c */; };
-		4214F0401D75975D00012A2E /* jmemansi.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9600868211C697A10E /* jmemansi.c */; };
-		4214F0411D75975D00012A2E /* jerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8B00868211C697A10E /* jerror.c */; };
-		4214F0421D75975D00012A2E /* jcapimin.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6600868211C697A10E /* jcapimin.c */; };
-		4214F0431D75975D00012A2E /* jcomapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7100868211C697A10E /* jcomapi.c */; };
-		4214F0441D75975D00012A2E /* jutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAA200868211C697A10E /* jutils.c */; };
-		4214F0451D75975D00012A2E /* jcmarker.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6F00868211C697A10E /* jcmarker.c */; };
-		4214F0461D75975D00012A2E /* jdapistd.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7900868211C697A10E /* jdapistd.c */; };
-		4214F0471D75975D00012A2E /* jcinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6D00868211C697A10E /* jcinit.c */; };
-		4214F0481D75975D00012A2E /* jcphuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7400868211C697A10E /* jcphuff.c */; };
-		4214F0491D75975D00012A2E /* jchuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6B00868211C697A10E /* jchuff.c */; };
-		4214F04A1D75975D00012A2E /* jcdctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6A00868211C697A10E /* jcdctmgr.c */; };
-		4214F04B1D75975D00012A2E /* jcsample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7600868211C697A10E /* jcsample.c */; };
-		4214F04C1D75975D00012A2E /* jccolor.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6900868211C697A10E /* jccolor.c */; };
-		4214F04D1D75975D00012A2E /* jcprepct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7500868211C697A10E /* jcprepct.c */; };
-		4214F04E1D75975D00012A2E /* jccoefct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6800868211C697A10E /* jccoefct.c */; };
-		4214F04F1D75975D00012A2E /* jfdctflt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8D00868211C697A10E /* jfdctflt.c */; };
-		4214F0501D75975D00012A2E /* jcmaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7000868211C697A10E /* jcmaster.c */; };
-		4214F0511D75975D00012A2E /* jdmaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8500868211C697A10E /* jdmaster.c */; };
-		4214F0521D75975D00012A2E /* jdapimin.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7800868211C697A10E /* jdapimin.c */; };
-		4214F0531D75975D00012A2E /* jdmarker.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8400868211C697A10E /* jdmarker.c */; };
-		4214F0541D75975D00012A2E /* jdinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8200868211C697A10E /* jdinput.c */; };
-		4214F0551D75975D00012A2E /* jdsample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8900868211C697A10E /* jdsample.c */; };
-		4214F0561D75975D00012A2E /* jddctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7F00868211C697A10E /* jddctmgr.c */; };
-		4214F0571D75975D00012A2E /* jdhuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8000868211C697A10E /* jdhuff.c */; };
-		4214F0581D75975D00012A2E /* jidctflt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9000868211C697A10E /* jidctflt.c */; };
-		4214F0591D75975D00012A2E /* jdpostct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8800868211C697A10E /* jdpostct.c */; };
-		4214F05A1D75975D00012A2E /* jcparam.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7300868211C697A10E /* jcparam.c */; };
-		4214F05B1D75975D00012A2E /* jdatasrc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7B00868211C697A10E /* jdatasrc.c */; };
-		4214F05C1D75975D00012A2E /* jdmainct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8300868211C697A10E /* jdmainct.c */; };
-		4214F05D1D75975D00012A2E /* jdcoefct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7C00868211C697A10E /* jdcoefct.c */; };
-		4214F05E1D75975D00012A2E /* jdcolor.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7D00868211C697A10E /* jdcolor.c */; };
-		4214F05F1D75975D00012A2E /* jcmainct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6E00868211C697A10E /* jcmainct.c */; };
-		4214F0601D75975D00012A2E /* be_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92C00868211C697A10E /* be_interface.c */; };
-		4214F0611D75975D00012A2E /* be_ai_chat.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92400868211C697A10E /* be_ai_chat.c */; };
-		4214F0621D75975D00012A2E /* l_precomp.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93600868211C697A10E /* l_precomp.c */; };
-		4214F0631D75975D00012A2E /* l_libvar.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93000868211C697A10E /* l_libvar.c */; };
-		4214F0641D75975D00012A2E /* l_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93800868211C697A10E /* l_script.c */; };
-		4214F0651D75975D00012A2E /* l_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93400868211C697A10E /* l_memory.c */; };
-		4214F0661D75975D00012A2E /* l_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93200868211C697A10E /* l_log.c */; };
-		4214F0671D75975D00012A2E /* be_ai_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92500868211C697A10E /* be_ai_gen.c */; };
-		4214F0681D75975D00012A2E /* be_ea.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92B00868211C697A10E /* be_ea.c */; };
-		4214F0691D75975D00012A2E /* be_ai_char.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92300868211C697A10E /* be_ai_char.c */; };
-		4214F06A1D75975D00012A2E /* be_ai_move.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92700868211C697A10E /* be_ai_move.c */; };
-		4214F06B1D75975D00012A2E /* be_aas_route.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91D00868211C697A10E /* be_aas_route.c */; };
-		4214F06C1D75975D00012A2E /* be_aas_move.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91700868211C697A10E /* be_aas_move.c */; };
-		4214F06D1D75975D00012A2E /* be_aas_sample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92100868211C697A10E /* be_aas_sample.c */; };
-		4214F06E1D75975D00012A2E /* be_aas_bspq3.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90A00868211C697A10E /* be_aas_bspq3.c */; };
-		4214F06F1D75975D00012A2E /* be_aas_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90D00868211C697A10E /* be_aas_debug.c */; };
-		4214F0701D75975D00012A2E /* be_aas_reach.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91B00868211C697A10E /* be_aas_reach.c */; };
-		4214F0711D75975D00012A2E /* be_aas_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91500868211C697A10E /* be_aas_main.c */; };
-		4214F0721D75975D00012A2E /* be_ai_goal.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92600868211C697A10E /* be_ai_goal.c */; };
-		4214F0731D75975D00012A2E /* be_ai_weight.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92900868211C697A10E /* be_ai_weight.c */; };
-		4214F0741D75975D00012A2E /* be_aas_optimize.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91900868211C697A10E /* be_aas_optimize.c */; };
-		4214F0751D75975D00012A2E /* be_aas_routealt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91F00868211C697A10E /* be_aas_routealt.c */; };
-		4214F0761D75975D00012A2E /* l_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93A00868211C697A10E /* l_struct.c */; };
-		4214F0771D75975D00012A2E /* l_crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92E00868211C697A10E /* l_crc.c */; };
-		4214F0781D75975D00012A2E /* be_ai_weap.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92800868211C697A10E /* be_ai_weap.c */; };
-		4214F0791D75975D00012A2E /* be_aas_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91200868211C697A10E /* be_aas_file.c */; };
-		4214F07A1D75975D00012A2E /* be_aas_entity.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91000868211C697A10E /* be_aas_entity.c */; };
-		4214F07B1D75975D00012A2E /* be_aas_cluster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90B00868211C697A10E /* be_aas_cluster.c */; };
-		4214F07C1D75975D00012A2E /* macosx_display.m in Sources */ = {isa = PBXBuildFile; fileRef = 015ECC0D00894EC0C697A10E /* macosx_display.m */; };
-		4214F07D1D75975D00012A2E /* macosx_glsmp_mutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B4A3B00ACCF9FC697A10E /* macosx_glsmp_mutex.m */; };
-		4214F07E1D75975D00012A2E /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 016F1B6300ACDA9BC697A10E /* huffman.c */; };
-		4214F07F1D75975D00012A2E /* vm_ppc_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FB23863047AB9F60098ACF3 /* vm_ppc_new.c */; };
-		4214F0801D75975D00012A2E /* cm_polylib.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF100868211C697A10E /* cm_polylib.c */; };
-		4214F0821D75975D00012A2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA58FE8ECEE0C697A12F /* OpenGL.framework */; };
-		4214F0831D75975D00012A2E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5AFE8ECEE0C697A12F /* AppKit.framework */; };
-		4214F0841D75975D00012A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5BFE8ECEE0C697A12F /* Foundation.framework */; };
-		4214F0851D75975D00012A2E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9D914FEDB4D29C697A12F /* CoreAudio.framework */; };
-		4214F0861D75975D00012A2E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F564505801E623B201F62882 /* IOKit.framework */; };
-		4214F0871D75975D00012A2E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA59FE8ECEE0C697A12F /* Carbon.framework */; };
 		4214F0921D75975E00012A2E /* q_shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA6200868211C697A10E /* q_shared.h */; };
 		4214F0931D75975E00012A2E /* ai_main.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA2E00868211C697A10E /* ai_main.h */; };
 		4214F0941D75975E00012A2E /* ai_dmq3.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA2C00868211C697A10E /* ai_dmq3.h */; };
@@ -674,221 +469,17 @@
 		4214F1B71D75975E00012A2E /* Q3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627B100868916C697A10E /* Q3Controller.m */; };
 		4214F1B81D75975E00012A2E /* macosx_timers.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AF00868916C697A10E /* macosx_timers.m */; };
 		4214F1B91D75975E00012A2E /* null_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAB500868211C697A10E /* null_client.c */; };
-		4214F1BA1D75975E00012A2E /* vm_ppc_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FB23863047AB9F60098ACF3 /* vm_ppc_new.c */; };
 		4214F1BC1D75975E00012A2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA58FE8ECEE0C697A12F /* OpenGL.framework */; };
 		4214F1BD1D75975E00012A2E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA59FE8ECEE0C697A12F /* Carbon.framework */; };
 		4214F1BE1D75975E00012A2E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9D914FEDB4D29C697A12F /* CoreAudio.framework */; };
 		4214F1BF1D75975E00012A2E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5AFE8ECEE0C697A12F /* AppKit.framework */; };
 		4214F1C01D75975E00012A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5BFE8ECEE0C697A12F /* Foundation.framework */; };
 		4214F1C11D75975E00012A2E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F564505801E623B201F62882 /* IOKit.framework */; };
-		4214F1CB1D75975E00012A2E /* vm_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0300868211C697A10E /* vm_local.h */; };
-		4214F1CC1D75975E00012A2E /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0000868211C697A10E /* unzip.h */; };
-		4214F1CD1D75975E00012A2E /* qfiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAFE00868211C697A10E /* qfiles.h */; };
-		4214F1CE1D75975E00012A2E /* qcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAFD00868211C697A10E /* qcommon.h */; };
-		4214F1CF1D75975E00012A2E /* cm_public.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF300868211C697A10E /* cm_public.h */; };
-		4214F1D01D75975E00012A2E /* cm_polylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF200868211C697A10E /* cm_polylib.h */; };
-		4214F1D11D75975E00012A2E /* cm_patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAF000868211C697A10E /* cm_patch.h */; };
-		4214F1D21D75975E00012A2E /* cm_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADAEE00868211C697A10E /* cm_local.h */; };
-		4214F1D31D75975E00012A2E /* server.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB2400868211C697A10E /* server.h */; };
-		4214F1D41D75975E00012A2E /* util_str.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB3F00868211C697A10E /* util_str.h */; };
-		4214F1D51D75975E00012A2E /* tr_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB1400868211C697A10E /* tr_local.h */; };
-		4214F1D61D75975E00012A2E /* tr_public.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB1A00868211C697A10E /* tr_public.h */; };
-		4214F1D71D75975E00012A2E /* qgl.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0800868211C697A10E /* qgl.h */; };
-		4214F1D81D75975E00012A2E /* qgl_linked.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADB0900868211C697A10E /* qgl_linked.h */; };
-		4214F1D91D75975E00012A2E /* jchuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA6C00868211C697A10E /* jchuff.h */; };
-		4214F1DA1D75975E00012A2E /* jdhuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA8100868211C697A10E /* jdhuff.h */; };
-		4214F1DB1D75975E00012A2E /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA8C00868211C697A10E /* jerror.h */; };
-		4214F1DC1D75975E00012A2E /* jmemsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA9B00868211C697A10E /* jmemsys.h */; };
-		4214F1DD1D75975E00012A2E /* q_shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 012ADA6200868211C697A10E /* q_shared.h */; };
-		4214F1DE1D75975E00012A2E /* aasfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90800868211C697A10E /* aasfile.h */; };
-		4214F1DF1D75975E00012A2E /* be_aas_bsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90900868211C697A10E /* be_aas_bsp.h */; };
-		4214F1E01D75975E00012A2E /* be_aas_cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90C00868211C697A10E /* be_aas_cluster.h */; };
-		4214F1E11D75975E00012A2E /* be_aas_debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90E00868211C697A10E /* be_aas_debug.h */; };
-		4214F1E21D75975E00012A2E /* be_aas_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD90F00868211C697A10E /* be_aas_def.h */; };
-		4214F1E31D75975E00012A2E /* be_aas_entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91100868211C697A10E /* be_aas_entity.h */; };
-		4214F1E41D75975E00012A2E /* be_aas_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91300868211C697A10E /* be_aas_file.h */; };
-		4214F1E51D75975E00012A2E /* be_aas_funcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91400868211C697A10E /* be_aas_funcs.h */; };
-		4214F1E61D75975E00012A2E /* be_aas_main.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91600868211C697A10E /* be_aas_main.h */; };
-		4214F1E71D75975E00012A2E /* be_aas_move.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91800868211C697A10E /* be_aas_move.h */; };
-		4214F1E81D75975E00012A2E /* be_aas_optimize.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91A00868211C697A10E /* be_aas_optimize.h */; };
-		4214F1E91D75975E00012A2E /* be_aas_reach.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91C00868211C697A10E /* be_aas_reach.h */; };
-		4214F1EA1D75975E00012A2E /* be_aas_route.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD91E00868211C697A10E /* be_aas_route.h */; };
-		4214F1EB1D75975E00012A2E /* be_aas_routealt.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92000868211C697A10E /* be_aas_routealt.h */; };
-		4214F1EC1D75975E00012A2E /* be_aas_sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92200868211C697A10E /* be_aas_sample.h */; };
-		4214F1ED1D75975E00012A2E /* be_ai_weight.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92A00868211C697A10E /* be_ai_weight.h */; };
-		4214F1EE1D75975E00012A2E /* be_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92D00868211C697A10E /* be_interface.h */; };
-		4214F1EF1D75975E00012A2E /* l_crc.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD92F00868211C697A10E /* l_crc.h */; };
-		4214F1F01D75975E00012A2E /* l_libvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93100868211C697A10E /* l_libvar.h */; };
-		4214F1F11D75975E00012A2E /* l_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93300868211C697A10E /* l_log.h */; };
-		4214F1F21D75975E00012A2E /* l_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93500868211C697A10E /* l_memory.h */; };
-		4214F1F31D75975E00012A2E /* l_precomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93700868211C697A10E /* l_precomp.h */; };
-		4214F1F41D75975E00012A2E /* l_script.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93900868211C697A10E /* l_script.h */; };
-		4214F1F51D75975E00012A2E /* l_struct.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93B00868211C697A10E /* l_struct.h */; };
-		4214F1F61D75975E00012A2E /* l_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 012AD93C00868211C697A10E /* l_utils.h */; };
-		4214F1F71D75975E00012A2E /* macosx_display.h in Headers */ = {isa = PBXBuildFile; fileRef = 015ECC0C00894EC0C697A10E /* macosx_display.h */; };
-		4214F1F81D75975E00012A2E /* macosx_qgl.h in Headers */ = {isa = PBXBuildFile; fileRef = 011F78F200B25B65C697A10E /* macosx_qgl.h */; };
-		4214F1F91D75975E00012A2E /* macosx_glimp.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A600868916C697A10E /* macosx_glimp.h */; };
-		4214F1FA1D75975E00012A2E /* macosx_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627A900868916C697A10E /* macosx_local.h */; };
-		4214F1FB1D75975E00012A2E /* Q3Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627B000868916C697A10E /* Q3Controller.h */; };
-		4214F1FC1D75975E00012A2E /* macosx_timers.h in Headers */ = {isa = PBXBuildFile; fileRef = 043627AE00868916C697A10E /* macosx_timers.h */; };
-		4214F1FE1D75975E00012A2E /* vm_interpreted.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0200868211C697A10E /* vm_interpreted.c */; };
-		4214F1FF1D75975E00012A2E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFF00868211C697A10E /* unzip.c */; };
-		4214F2001D75975E00012A2E /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0100868211C697A10E /* vm.c */; };
-		4214F2011D75975E00012A2E /* net_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFC00868211C697A10E /* net_chan.c */; };
-		4214F2021D75975E00012A2E /* msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFB00868211C697A10E /* msg.c */; };
-		4214F2031D75975E00012A2E /* md4.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAFA00868211C697A10E /* md4.c */; };
-		4214F2041D75975E00012A2E /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 016F1B6300ACDA9BC697A10E /* huffman.c */; };
-		4214F2051D75975E00012A2E /* files.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF900868211C697A10E /* files.c */; };
-		4214F2061D75975E00012A2E /* cvar.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF800868211C697A10E /* cvar.c */; };
-		4214F2071D75975E00012A2E /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF700868211C697A10E /* common.c */; };
-		4214F2081D75975E00012A2E /* cmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF600868211C697A10E /* cmd.c */; };
-		4214F2091D75975E00012A2E /* cm_trace.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF500868211C697A10E /* cm_trace.c */; };
-		4214F20A1D75975E00012A2E /* cm_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF400868211C697A10E /* cm_test.c */; };
-		4214F20B1D75975E00012A2E /* cm_polylib.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAF100868211C697A10E /* cm_polylib.c */; };
-		4214F20C1D75975E00012A2E /* cm_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAEF00868211C697A10E /* cm_patch.c */; };
-		4214F20D1D75975E00012A2E /* cm_load.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAED00868211C697A10E /* cm_load.c */; };
-		4214F20E1D75975E00012A2E /* sv_bot.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2500868211C697A10E /* sv_bot.c */; };
-		4214F20F1D75975E00012A2E /* sv_ccmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2600868211C697A10E /* sv_ccmds.c */; };
-		4214F2101D75975E00012A2E /* sv_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2700868211C697A10E /* sv_client.c */; };
-		4214F2111D75975E00012A2E /* sv_game.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2800868211C697A10E /* sv_game.c */; };
-		4214F2121D75975E00012A2E /* sv_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2900868211C697A10E /* sv_init.c */; };
-		4214F2131D75975E00012A2E /* sv_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2A00868211C697A10E /* sv_main.c */; };
-		4214F2141D75975E00012A2E /* sv_net_chan.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2B00868211C697A10E /* sv_net_chan.c */; };
-		4214F2151D75975E00012A2E /* sv_snapshot.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2D00868211C697A10E /* sv_snapshot.c */; };
-		4214F2161D75975E00012A2E /* sv_world.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2E00868211C697A10E /* sv_world.c */; };
-		4214F2171D75975E00012A2E /* unix_net.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB5700868211C697A10E /* unix_net.c */; };
-		4214F2181D75975E00012A2E /* unix_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB5800868211C697A10E /* unix_shared.c */; };
-		4214F2191D75975E00012A2E /* q_parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3800868211C697A10E /* q_parse.cpp */; };
-		4214F21A1D75975E00012A2E /* splines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3B00868211C697A10E /* splines.cpp */; };
-		4214F21B1D75975E00012A2E /* util_str.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB3E00868211C697A10E /* util_str.cpp */; };
-		4214F21C1D75975E00012A2E /* tr_animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0A00868211C697A10E /* tr_animation.c */; };
-		4214F21D1D75975E00012A2E /* tr_backend.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0B00868211C697A10E /* tr_backend.c */; };
-		4214F21E1D75975E00012A2E /* tr_bsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0C00868211C697A10E /* tr_bsp.c */; };
-		4214F21F1D75975E00012A2E /* tr_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0D00868211C697A10E /* tr_cmds.c */; };
-		4214F2201D75975E00012A2E /* tr_curve.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0E00868211C697A10E /* tr_curve.c */; };
-		4214F2211D75975E00012A2E /* tr_flares.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0F00868211C697A10E /* tr_flares.c */; };
-		4214F2221D75975E00012A2E /* tr_font.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1000868211C697A10E /* tr_font.c */; };
-		4214F2231D75975E00012A2E /* tr_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1100868211C697A10E /* tr_image.c */; };
-		4214F2241D75975E00012A2E /* tr_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1200868211C697A10E /* tr_init.c */; };
-		4214F2251D75975E00012A2E /* tr_light.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1300868211C697A10E /* tr_light.c */; };
-		4214F2261D75975E00012A2E /* tr_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1500868211C697A10E /* tr_main.c */; };
-		4214F2271D75975E00012A2E /* tr_marks.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1600868211C697A10E /* tr_marks.c */; };
-		4214F2281D75975E00012A2E /* tr_mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1700868211C697A10E /* tr_mesh.c */; };
-		4214F2291D75975E00012A2E /* tr_model.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1800868211C697A10E /* tr_model.c */; };
-		4214F22A1D75975E00012A2E /* tr_noise.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1900868211C697A10E /* tr_noise.c */; };
-		4214F22B1D75975E00012A2E /* tr_scene.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1B00868211C697A10E /* tr_scene.c */; };
-		4214F22C1D75975E00012A2E /* tr_shade.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1C00868211C697A10E /* tr_shade.c */; };
-		4214F22D1D75975E00012A2E /* tr_shade_calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1D00868211C697A10E /* tr_shade_calc.c */; };
-		4214F22E1D75975E00012A2E /* tr_shader.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1E00868211C697A10E /* tr_shader.c */; };
-		4214F22F1D75975E00012A2E /* tr_shadows.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB1F00868211C697A10E /* tr_shadows.c */; };
-		4214F2301D75975E00012A2E /* tr_sky.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2000868211C697A10E /* tr_sky.c */; };
-		4214F2311D75975E00012A2E /* tr_surface.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2100868211C697A10E /* tr_surface.c */; };
-		4214F2321D75975E00012A2E /* tr_world.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB2200868211C697A10E /* tr_world.c */; };
-		4214F2331D75975E00012A2E /* jcapimin.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6600868211C697A10E /* jcapimin.c */; };
-		4214F2341D75975E00012A2E /* jccoefct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6800868211C697A10E /* jccoefct.c */; };
-		4214F2351D75975E00012A2E /* jccolor.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6900868211C697A10E /* jccolor.c */; };
-		4214F2361D75975E00012A2E /* jcdctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6A00868211C697A10E /* jcdctmgr.c */; };
-		4214F2371D75975E00012A2E /* jchuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6B00868211C697A10E /* jchuff.c */; };
-		4214F2381D75975E00012A2E /* jcinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6D00868211C697A10E /* jcinit.c */; };
-		4214F2391D75975E00012A2E /* jcmainct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6E00868211C697A10E /* jcmainct.c */; };
-		4214F23A1D75975E00012A2E /* jcmarker.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6F00868211C697A10E /* jcmarker.c */; };
-		4214F23B1D75975E00012A2E /* jcmaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7000868211C697A10E /* jcmaster.c */; };
-		4214F23C1D75975E00012A2E /* jcomapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7100868211C697A10E /* jcomapi.c */; };
-		4214F23D1D75975E00012A2E /* jcparam.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7300868211C697A10E /* jcparam.c */; };
-		4214F23E1D75975E00012A2E /* jcphuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7400868211C697A10E /* jcphuff.c */; };
-		4214F23F1D75975E00012A2E /* jcprepct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7500868211C697A10E /* jcprepct.c */; };
-		4214F2401D75975E00012A2E /* jcsample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7600868211C697A10E /* jcsample.c */; };
-		4214F2411D75975E00012A2E /* jdapimin.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7800868211C697A10E /* jdapimin.c */; };
-		4214F2421D75975E00012A2E /* jdapistd.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7900868211C697A10E /* jdapistd.c */; };
-		4214F2431D75975E00012A2E /* jdatasrc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7B00868211C697A10E /* jdatasrc.c */; };
-		4214F2441D75975E00012A2E /* jdcoefct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7C00868211C697A10E /* jdcoefct.c */; };
-		4214F2451D75975E00012A2E /* jdcolor.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7D00868211C697A10E /* jdcolor.c */; };
-		4214F2461D75975E00012A2E /* jddctmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA7F00868211C697A10E /* jddctmgr.c */; };
-		4214F2471D75975E00012A2E /* jdhuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8000868211C697A10E /* jdhuff.c */; };
-		4214F2481D75975E00012A2E /* jdinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8200868211C697A10E /* jdinput.c */; };
-		4214F2491D75975E00012A2E /* jdmainct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8300868211C697A10E /* jdmainct.c */; };
-		4214F24A1D75975E00012A2E /* jdmarker.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8400868211C697A10E /* jdmarker.c */; };
-		4214F24B1D75975E00012A2E /* jdmaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8500868211C697A10E /* jdmaster.c */; };
-		4214F24C1D75975E00012A2E /* jdsample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8900868211C697A10E /* jdsample.c */; };
-		4214F24D1D75975E00012A2E /* jdpostct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8800868211C697A10E /* jdpostct.c */; };
-		4214F24E1D75975E00012A2E /* jerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8B00868211C697A10E /* jerror.c */; };
-		4214F24F1D75975E00012A2E /* jfdctflt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA8D00868211C697A10E /* jfdctflt.c */; };
-		4214F2501D75975E00012A2E /* jidctflt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9000868211C697A10E /* jidctflt.c */; };
-		4214F2511D75975E00012A2E /* jmemansi.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9600868211C697A10E /* jmemansi.c */; };
-		4214F2521D75975E00012A2E /* jmemmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA9800868211C697A10E /* jmemmgr.c */; };
-		4214F2531D75975E00012A2E /* jutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAA200868211C697A10E /* jutils.c */; };
-		4214F2541D75975E00012A2E /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6000868211C697A10E /* q_math.c */; };
-		4214F2551D75975E00012A2E /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADA6100868211C697A10E /* q_shared.c */; };
-		4214F2561D75975E00012A2E /* be_aas_bspq3.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90A00868211C697A10E /* be_aas_bspq3.c */; };
-		4214F2571D75975E00012A2E /* be_aas_cluster.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90B00868211C697A10E /* be_aas_cluster.c */; };
-		4214F2581D75975E00012A2E /* be_aas_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD90D00868211C697A10E /* be_aas_debug.c */; };
-		4214F2591D75975E00012A2E /* be_aas_entity.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91000868211C697A10E /* be_aas_entity.c */; };
-		4214F25A1D75975E00012A2E /* be_aas_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91200868211C697A10E /* be_aas_file.c */; };
-		4214F25B1D75975E00012A2E /* be_aas_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91500868211C697A10E /* be_aas_main.c */; };
-		4214F25C1D75975E00012A2E /* be_aas_move.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91700868211C697A10E /* be_aas_move.c */; };
-		4214F25D1D75975E00012A2E /* be_aas_optimize.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91900868211C697A10E /* be_aas_optimize.c */; };
-		4214F25E1D75975E00012A2E /* be_aas_reach.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91B00868211C697A10E /* be_aas_reach.c */; };
-		4214F25F1D75975E00012A2E /* be_aas_route.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91D00868211C697A10E /* be_aas_route.c */; };
-		4214F2601D75975E00012A2E /* be_aas_routealt.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD91F00868211C697A10E /* be_aas_routealt.c */; };
-		4214F2611D75975E00012A2E /* be_aas_sample.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92100868211C697A10E /* be_aas_sample.c */; };
-		4214F2621D75975E00012A2E /* be_ai_char.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92300868211C697A10E /* be_ai_char.c */; };
-		4214F2631D75975E00012A2E /* be_ai_chat.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92400868211C697A10E /* be_ai_chat.c */; };
-		4214F2641D75975E00012A2E /* be_ai_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92500868211C697A10E /* be_ai_gen.c */; };
-		4214F2651D75975E00012A2E /* be_ai_goal.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92600868211C697A10E /* be_ai_goal.c */; };
-		4214F2661D75975E00012A2E /* be_ai_move.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92700868211C697A10E /* be_ai_move.c */; };
-		4214F2671D75975E00012A2E /* be_ai_weap.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92800868211C697A10E /* be_ai_weap.c */; };
-		4214F2681D75975E00012A2E /* be_ai_weight.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92900868211C697A10E /* be_ai_weight.c */; };
-		4214F2691D75975E00012A2E /* be_ea.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92B00868211C697A10E /* be_ea.c */; };
-		4214F26A1D75975E00012A2E /* be_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92C00868211C697A10E /* be_interface.c */; };
-		4214F26B1D75975E00012A2E /* l_crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD92E00868211C697A10E /* l_crc.c */; };
-		4214F26C1D75975E00012A2E /* l_libvar.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93000868211C697A10E /* l_libvar.c */; };
-		4214F26D1D75975E00012A2E /* l_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93200868211C697A10E /* l_log.c */; };
-		4214F26E1D75975E00012A2E /* l_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93400868211C697A10E /* l_memory.c */; };
-		4214F26F1D75975E00012A2E /* l_precomp.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93600868211C697A10E /* l_precomp.c */; };
-		4214F2701D75975E00012A2E /* l_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93800868211C697A10E /* l_script.c */; };
-		4214F2711D75975E00012A2E /* l_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 012AD93A00868211C697A10E /* l_struct.c */; };
-		4214F2721D75975E00012A2E /* macosx_display.m in Sources */ = {isa = PBXBuildFile; fileRef = 015ECC0D00894EC0C697A10E /* macosx_display.m */; };
-		4214F2731D75975E00012A2E /* macosx_glimp.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627A700868916C697A10E /* macosx_glimp.m */; };
-		4214F2741D75975E00012A2E /* macosx_glsmp_mutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B4A3B00ACCF9FC697A10E /* macosx_glsmp_mutex.m */; };
-		4214F2751D75975E00012A2E /* macosx_input.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627A800868916C697A10E /* macosx_input.m */; };
-		4214F2761D75975E00012A2E /* macosx_sys.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AD00868916C697A10E /* macosx_sys.m */; };
-		4214F2771D75975E00012A2E /* Q3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627B100868916C697A10E /* Q3Controller.m */; };
-		4214F2781D75975E00012A2E /* macosx_timers.m in Sources */ = {isa = PBXBuildFile; fileRef = 043627AF00868916C697A10E /* macosx_timers.m */; };
-		4214F2791D75975E00012A2E /* null_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADAB500868211C697A10E /* null_client.c */; };
-		4214F27A1D75975E00012A2E /* vm_ppc_new.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FB23863047AB9F60098ACF3 /* vm_ppc_new.c */; };
-		4214F27C1D75975E00012A2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA58FE8ECEE0C697A12F /* OpenGL.framework */; };
-		4214F27D1D75975E00012A2E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA59FE8ECEE0C697A12F /* Carbon.framework */; };
-		4214F27E1D75975E00012A2E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9D914FEDB4D29C697A12F /* CoreAudio.framework */; };
-		4214F27F1D75975E00012A2E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5AFE8ECEE0C697A12F /* AppKit.framework */; };
-		4214F2801D75975E00012A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0654BA5BFE8ECEE0C697A12F /* Foundation.framework */; };
-		4214F2811D75975E00012A2E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F564505801E623B201F62882 /* IOKit.framework */; };
+		42EB92121D75B5D5005D251D /* vm_x86.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0500868211C697A10E /* vm_x86.c */; };
+		42EB92131D75B5F3005D251D /* vm_x86.c in Sources */ = {isa = PBXBuildFile; fileRef = 012ADB0500868211C697A10E /* vm_x86.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
-		4214F2991D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-		4214F29A1D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-		4214F29B1D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
 		4214F29C1D75975F00012A2E /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.gcc.3_3;
@@ -906,30 +497,6 @@
 			);
 		};
 		4214F29E1D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-		4214F29F1D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-		4214F2A01D75975F00012A2E /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.gcc.3_3;
-			fileType = sourcecode.c;
-			isEditable = 1;
-			outputFiles = (
-			);
-		};
-		4214F2A11D75975F00012A2E /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.gcc.3_3;
 			fileType = sourcecode.c;
@@ -1461,7 +1028,6 @@
 		4214EFB41D75975D00012A2E /* Info-Quake3__Application___Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Quake3__Application___Upgraded_.plist"; sourceTree = "<group>"; };
 		4214EFB51D75975D00012A2E /* Quake3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quake3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214F08D1D75975D00012A2E /* Info-Quake3_G4__Application___Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Quake3_G4__Application___Upgraded_.plist"; sourceTree = "<group>"; };
-		4214F08E1D75975E00012A2E /* Quake3 G4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quake3 G4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214F0C41D75975E00012A2E /* Info-qagame__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-qagame__Upgraded_.plist"; sourceTree = "<group>"; };
 		4214F0C51D75975E00012A2E /* qagame.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qagame.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214F0EC1D75975E00012A2E /* Info-cgame__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-cgame__Upgraded_.plist"; sourceTree = "<group>"; };
@@ -1469,7 +1035,6 @@
 		4214F1071D75975E00012A2E /* Info-ui__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ui__Upgraded_.plist"; sourceTree = "<group>"; };
 		4214F1081D75975E00012A2E /* ui.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ui.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214F1C71D75975E00012A2E /* Q3DedicatedServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Q3DedicatedServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		4214F2871D75975E00012A2E /* Q3DedicatedServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Q3DedicatedServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB23863047AB9F60098ACF3 /* vm_ppc_new.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = vm_ppc_new.c; sourceTree = "<group>"; };
 		F564505801E623B201F62882 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		F5ED1435037096A001F6289A /* splines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = splines.h; sourceTree = "<group>"; };
@@ -1486,19 +1051,6 @@
 				4214EFAC1D75975D00012A2E /* CoreAudio.framework in Frameworks */,
 				4214EFAD1D75975D00012A2E /* IOKit.framework in Frameworks */,
 				4214EFAE1D75975D00012A2E /* Carbon.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214F0811D75975D00012A2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214F0821D75975D00012A2E /* OpenGL.framework in Frameworks */,
-				4214F0831D75975D00012A2E /* AppKit.framework in Frameworks */,
-				4214F0841D75975D00012A2E /* Foundation.framework in Frameworks */,
-				4214F0851D75975D00012A2E /* CoreAudio.framework in Frameworks */,
-				4214F0861D75975D00012A2E /* IOKit.framework in Frameworks */,
-				4214F0871D75975D00012A2E /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1533,19 +1085,6 @@
 				4214F1BF1D75975E00012A2E /* AppKit.framework in Frameworks */,
 				4214F1C01D75975E00012A2E /* Foundation.framework in Frameworks */,
 				4214F1C11D75975E00012A2E /* IOKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214F27B1D75975E00012A2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214F27C1D75975E00012A2E /* OpenGL.framework in Frameworks */,
-				4214F27D1D75975E00012A2E /* Carbon.framework in Frameworks */,
-				4214F27E1D75975E00012A2E /* CoreAudio.framework in Frameworks */,
-				4214F27F1D75975E00012A2E /* AppKit.framework in Frameworks */,
-				4214F2801D75975E00012A2E /* Foundation.framework in Frameworks */,
-				4214F2811D75975E00012A2E /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2243,12 +1782,10 @@
 			isa = PBXGroup;
 			children = (
 				4214EFB51D75975D00012A2E /* Quake3.app */,
-				4214F08E1D75975E00012A2E /* Quake3 G4.app */,
 				4214F0C51D75975E00012A2E /* qagame.bundle */,
 				4214F0ED1D75975E00012A2E /* cgame.bundle */,
 				4214F1081D75975E00012A2E /* ui.bundle */,
 				4214F1C71D75975E00012A2E /* Q3DedicatedServer */,
-				4214F2871D75975E00012A2E /* Q3DedicatedServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2315,68 +1852,6 @@
 				4214EF141D75975D00012A2E /* macosx_display.h in Headers */,
 				4214EF151D75975D00012A2E /* macosx_qgl.h in Headers */,
 				4214EF161D75975D00012A2E /* splines.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214EFB81D75975D00012A2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214EFB91D75975D00012A2E /* macosx_glimp.h in Headers */,
-				4214EFBA1D75975D00012A2E /* macosx_local.h in Headers */,
-				4214EFBB1D75975D00012A2E /* macosx_timers.h in Headers */,
-				4214EFBC1D75975D00012A2E /* Q3Controller.h in Headers */,
-				4214EFBD1D75975D00012A2E /* q_shared.h in Headers */,
-				4214EFBE1D75975D00012A2E /* vm_local.h in Headers */,
-				4214EFBF1D75975D00012A2E /* unzip.h in Headers */,
-				4214EFC01D75975D00012A2E /* cm_local.h in Headers */,
-				4214EFC11D75975D00012A2E /* cm_patch.h in Headers */,
-				4214EFC21D75975D00012A2E /* cm_polylib.h in Headers */,
-				4214EFC31D75975D00012A2E /* cm_public.h in Headers */,
-				4214EFC41D75975D00012A2E /* qcommon.h in Headers */,
-				4214EFC51D75975D00012A2E /* qfiles.h in Headers */,
-				4214EFC61D75975D00012A2E /* qgl.h in Headers */,
-				4214EFC71D75975D00012A2E /* qgl_linked.h in Headers */,
-				4214EFC81D75975D00012A2E /* tr_local.h in Headers */,
-				4214EFC91D75975D00012A2E /* tr_public.h in Headers */,
-				4214EFCA1D75975D00012A2E /* server.h in Headers */,
-				4214EFCB1D75975D00012A2E /* client.h in Headers */,
-				4214EFCC1D75975D00012A2E /* keys.h in Headers */,
-				4214EFCD1D75975D00012A2E /* snd_local.h in Headers */,
-				4214EFCE1D75975D00012A2E /* snd_public.h in Headers */,
-				4214EFCF1D75975D00012A2E /* util_str.h in Headers */,
-				4214EFD01D75975D00012A2E /* jerror.h in Headers */,
-				4214EFD11D75975D00012A2E /* jmemsys.h in Headers */,
-				4214EFD21D75975D00012A2E /* jchuff.h in Headers */,
-				4214EFD31D75975D00012A2E /* jdhuff.h in Headers */,
-				4214EFD41D75975D00012A2E /* l_precomp.h in Headers */,
-				4214EFD51D75975D00012A2E /* l_libvar.h in Headers */,
-				4214EFD61D75975D00012A2E /* l_script.h in Headers */,
-				4214EFD71D75975D00012A2E /* l_memory.h in Headers */,
-				4214EFD81D75975D00012A2E /* l_log.h in Headers */,
-				4214EFD91D75975D00012A2E /* be_aas_route.h in Headers */,
-				4214EFDA1D75975D00012A2E /* be_aas_move.h in Headers */,
-				4214EFDB1D75975D00012A2E /* be_aas_sample.h in Headers */,
-				4214EFDC1D75975D00012A2E /* be_aas_bsp.h in Headers */,
-				4214EFDD1D75975D00012A2E /* be_aas_debug.h in Headers */,
-				4214EFDE1D75975D00012A2E /* be_aas_reach.h in Headers */,
-				4214EFDF1D75975D00012A2E /* be_aas_main.h in Headers */,
-				4214EFE01D75975D00012A2E /* be_ai_weight.h in Headers */,
-				4214EFE11D75975D00012A2E /* be_aas_optimize.h in Headers */,
-				4214EFE21D75975D00012A2E /* be_aas_routealt.h in Headers */,
-				4214EFE31D75975D00012A2E /* l_struct.h in Headers */,
-				4214EFE41D75975D00012A2E /* be_interface.h in Headers */,
-				4214EFE51D75975D00012A2E /* l_crc.h in Headers */,
-				4214EFE61D75975D00012A2E /* l_utils.h in Headers */,
-				4214EFE71D75975D00012A2E /* be_aas_file.h in Headers */,
-				4214EFE81D75975D00012A2E /* be_aas_entity.h in Headers */,
-				4214EFE91D75975D00012A2E /* be_aas_cluster.h in Headers */,
-				4214EFEA1D75975D00012A2E /* be_aas_def.h in Headers */,
-				4214EFEB1D75975D00012A2E /* be_aas_funcs.h in Headers */,
-				4214EFEC1D75975D00012A2E /* aasfile.h in Headers */,
-				4214EFED1D75975D00012A2E /* macosx_display.h in Headers */,
-				4214EFEE1D75975D00012A2E /* macosx_qgl.h in Headers */,
-				4214EFEF1D75975D00012A2E /* splines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2474,63 +1949,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4214F1CA1D75975E00012A2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214F1CB1D75975E00012A2E /* vm_local.h in Headers */,
-				4214F1CC1D75975E00012A2E /* unzip.h in Headers */,
-				4214F1CD1D75975E00012A2E /* qfiles.h in Headers */,
-				4214F1CE1D75975E00012A2E /* qcommon.h in Headers */,
-				4214F1CF1D75975E00012A2E /* cm_public.h in Headers */,
-				4214F1D01D75975E00012A2E /* cm_polylib.h in Headers */,
-				4214F1D11D75975E00012A2E /* cm_patch.h in Headers */,
-				4214F1D21D75975E00012A2E /* cm_local.h in Headers */,
-				4214F1D31D75975E00012A2E /* server.h in Headers */,
-				4214F1D41D75975E00012A2E /* util_str.h in Headers */,
-				4214F1D51D75975E00012A2E /* tr_local.h in Headers */,
-				4214F1D61D75975E00012A2E /* tr_public.h in Headers */,
-				4214F1D71D75975E00012A2E /* qgl.h in Headers */,
-				4214F1D81D75975E00012A2E /* qgl_linked.h in Headers */,
-				4214F1D91D75975E00012A2E /* jchuff.h in Headers */,
-				4214F1DA1D75975E00012A2E /* jdhuff.h in Headers */,
-				4214F1DB1D75975E00012A2E /* jerror.h in Headers */,
-				4214F1DC1D75975E00012A2E /* jmemsys.h in Headers */,
-				4214F1DD1D75975E00012A2E /* q_shared.h in Headers */,
-				4214F1DE1D75975E00012A2E /* aasfile.h in Headers */,
-				4214F1DF1D75975E00012A2E /* be_aas_bsp.h in Headers */,
-				4214F1E01D75975E00012A2E /* be_aas_cluster.h in Headers */,
-				4214F1E11D75975E00012A2E /* be_aas_debug.h in Headers */,
-				4214F1E21D75975E00012A2E /* be_aas_def.h in Headers */,
-				4214F1E31D75975E00012A2E /* be_aas_entity.h in Headers */,
-				4214F1E41D75975E00012A2E /* be_aas_file.h in Headers */,
-				4214F1E51D75975E00012A2E /* be_aas_funcs.h in Headers */,
-				4214F1E61D75975E00012A2E /* be_aas_main.h in Headers */,
-				4214F1E71D75975E00012A2E /* be_aas_move.h in Headers */,
-				4214F1E81D75975E00012A2E /* be_aas_optimize.h in Headers */,
-				4214F1E91D75975E00012A2E /* be_aas_reach.h in Headers */,
-				4214F1EA1D75975E00012A2E /* be_aas_route.h in Headers */,
-				4214F1EB1D75975E00012A2E /* be_aas_routealt.h in Headers */,
-				4214F1EC1D75975E00012A2E /* be_aas_sample.h in Headers */,
-				4214F1ED1D75975E00012A2E /* be_ai_weight.h in Headers */,
-				4214F1EE1D75975E00012A2E /* be_interface.h in Headers */,
-				4214F1EF1D75975E00012A2E /* l_crc.h in Headers */,
-				4214F1F01D75975E00012A2E /* l_libvar.h in Headers */,
-				4214F1F11D75975E00012A2E /* l_log.h in Headers */,
-				4214F1F21D75975E00012A2E /* l_memory.h in Headers */,
-				4214F1F31D75975E00012A2E /* l_precomp.h in Headers */,
-				4214F1F41D75975E00012A2E /* l_script.h in Headers */,
-				4214F1F51D75975E00012A2E /* l_struct.h in Headers */,
-				4214F1F61D75975E00012A2E /* l_utils.h in Headers */,
-				4214F1F71D75975E00012A2E /* macosx_display.h in Headers */,
-				4214F1F81D75975E00012A2E /* macosx_qgl.h in Headers */,
-				4214F1F91D75975E00012A2E /* macosx_glimp.h in Headers */,
-				4214F1FA1D75975E00012A2E /* macosx_local.h in Headers */,
-				4214F1FB1D75975E00012A2E /* Q3Controller.h in Headers */,
-				4214F1FC1D75975E00012A2E /* macosx_timers.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2552,29 +1970,6 @@
 			productInstallPath = "/Users/Shared/$(USER)/InstalledProducts";
 			productName = Quake3;
 			productReference = 4214EFB51D75975D00012A2E /* Quake3.app */;
-			productType = "com.apple.product-type.application";
-		};
-		4214EFB71D75975D00012A2E /* Quake3 G4 (Application) (Upgraded) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4214F0891D75975D00012A2E /* Build configuration list for PBXNativeTarget "Quake3 G4 (Application) (Upgraded)" */;
-			buildPhases = (
-				4214EFB81D75975D00012A2E /* Headers */,
-				4214EFF01D75975D00012A2E /* Resources */,
-				4214EFF41D75975D00012A2E /* Sources */,
-				4214F0811D75975D00012A2E /* Frameworks */,
-				4214F0881D75975D00012A2E /* Rez */,
-			);
-			buildRules = (
-				4214F2991D75975F00012A2E /* PBXBuildRule */,
-				4214F29A1D75975F00012A2E /* PBXBuildRule */,
-				4214F29B1D75975F00012A2E /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = "Quake3 G4 (Application) (Upgraded)";
-			productInstallPath = "/Users/Shared/$(USER)/InstalledProducts";
-			productName = Quake3;
-			productReference = 4214F08E1D75975E00012A2E /* Quake3 G4.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4214F0901D75975E00012A2E /* qagame (Upgraded) */ = {
@@ -2659,28 +2054,6 @@
 			productReference = 4214F1C71D75975E00012A2E /* Q3DedicatedServer */;
 			productType = "com.apple.product-type.tool";
 		};
-		4214F1C91D75975E00012A2E /* Dedicated Server G4 (Upgraded) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4214F2831D75975E00012A2E /* Build configuration list for PBXNativeTarget "Dedicated Server G4 (Upgraded)" */;
-			buildPhases = (
-				4214F1CA1D75975E00012A2E /* Headers */,
-				4214F1FD1D75975E00012A2E /* Sources */,
-				4214F27B1D75975E00012A2E /* Frameworks */,
-				4214F2821D75975E00012A2E /* Rez */,
-			);
-			buildRules = (
-				4214F29F1D75975F00012A2E /* PBXBuildRule */,
-				4214F2A01D75975F00012A2E /* PBXBuildRule */,
-				4214F2A11D75975F00012A2E /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = "Dedicated Server G4 (Upgraded)";
-			productInstallPath = "";
-			productName = "Dedicated Server";
-			productReference = 4214F2871D75975E00012A2E /* Q3DedicatedServer */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2704,12 +2077,10 @@
 			projectRoot = "";
 			targets = (
 				4214EEDE1D75975D00012A2E /* Quake3 (Application) (Upgraded) */,
-				4214EFB71D75975D00012A2E /* Quake3 G4 (Application) (Upgraded) */,
 				4214F0901D75975E00012A2E /* qagame (Upgraded) */,
 				4214F0C61D75975E00012A2E /* cgame (Upgraded) */,
 				4214F0EE1D75975E00012A2E /* ui (Upgraded) */,
 				4214F1091D75975E00012A2E /* Dedicated Server (Upgraded) */,
-				4214F1C91D75975E00012A2E /* Dedicated Server G4 (Upgraded) */,
 			);
 		};
 /* End PBXProject section */
@@ -2722,16 +2093,6 @@
 				4214EF181D75975D00012A2E /* Quake3.icns in Resources */,
 				4214EF191D75975D00012A2E /* Quake3.nib in Resources */,
 				4214EF1A1D75975D00012A2E /* banner.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214EFF01D75975D00012A2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214EFF11D75975D00012A2E /* Quake3.icns in Resources */,
-				4214EFF21D75975D00012A2E /* Quake3.nib in Resources */,
-				4214EFF31D75975D00012A2E /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2766,13 +2127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4214F0881D75975D00012A2E /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4214F0BF1D75975E00012A2E /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
@@ -2801,13 +2155,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4214F2821D75975E00012A2E /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2815,6 +2162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4214EF291D75975D00012A2E /* vm.c in Sources */,
+				42EB92121D75B5D5005D251D /* vm_x86.c in Sources */,
 				4214EF1C1D75975D00012A2E /* macosx_glimp.m in Sources */,
 				4214EF1D1D75975D00012A2E /* macosx_input.m in Sources */,
 				4214EF1E1D75975D00012A2E /* macosx_sndcore.m in Sources */,
@@ -2828,7 +2177,6 @@
 				4214EF261D75975D00012A2E /* common.c in Sources */,
 				4214EF271D75975D00012A2E /* cvar.c in Sources */,
 				4214EF281D75975D00012A2E /* files.c in Sources */,
-				4214EF291D75975D00012A2E /* vm.c in Sources */,
 				4214EF2A1D75975D00012A2E /* vm_interpreted.c in Sources */,
 				4214EF2B1D75975D00012A2E /* unzip.c in Sources */,
 				4214EF2C1D75975D00012A2E /* unix_shared.c in Sources */,
@@ -2953,155 +2301,7 @@
 				4214EFA31D75975D00012A2E /* macosx_display.m in Sources */,
 				4214EFA41D75975D00012A2E /* macosx_glsmp_mutex.m in Sources */,
 				4214EFA51D75975D00012A2E /* huffman.c in Sources */,
-				4214EFA61D75975D00012A2E /* vm_ppc_new.c in Sources */,
 				4214EFA71D75975D00012A2E /* cm_polylib.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214EFF41D75975D00012A2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214EFF51D75975D00012A2E /* macosx_glimp.m in Sources */,
-				4214EFF61D75975D00012A2E /* macosx_input.m in Sources */,
-				4214EFF71D75975D00012A2E /* macosx_sndcore.m in Sources */,
-				4214EFF81D75975D00012A2E /* macosx_sys.m in Sources */,
-				4214EFF91D75975D00012A2E /* macosx_timers.m in Sources */,
-				4214EFFA1D75975D00012A2E /* Q3Controller.m in Sources */,
-				4214EFFB1D75975D00012A2E /* cmd.c in Sources */,
-				4214EFFC1D75975D00012A2E /* q_shared.c in Sources */,
-				4214EFFD1D75975D00012A2E /* q_math.c in Sources */,
-				4214EFFE1D75975D00012A2E /* tr_init.c in Sources */,
-				4214EFFF1D75975D00012A2E /* common.c in Sources */,
-				4214F0001D75975D00012A2E /* cvar.c in Sources */,
-				4214F0011D75975D00012A2E /* files.c in Sources */,
-				4214F0021D75975D00012A2E /* vm.c in Sources */,
-				4214F0031D75975D00012A2E /* vm_interpreted.c in Sources */,
-				4214F0041D75975D00012A2E /* unzip.c in Sources */,
-				4214F0051D75975D00012A2E /* unix_shared.c in Sources */,
-				4214F0061D75975D00012A2E /* cl_cgame.c in Sources */,
-				4214F0071D75975D00012A2E /* cl_cin.c in Sources */,
-				4214F0081D75975D00012A2E /* cl_console.c in Sources */,
-				4214F0091D75975D00012A2E /* cl_input.c in Sources */,
-				4214F00A1D75975D00012A2E /* cl_keys.c in Sources */,
-				4214F00B1D75975D00012A2E /* cl_main.c in Sources */,
-				4214F00C1D75975D00012A2E /* cl_net_chan.c in Sources */,
-				4214F00D1D75975D00012A2E /* cl_parse.c in Sources */,
-				4214F00E1D75975D00012A2E /* cl_scrn.c in Sources */,
-				4214F00F1D75975D00012A2E /* cl_ui.c in Sources */,
-				4214F0101D75975D00012A2E /* cm_load.c in Sources */,
-				4214F0111D75975D00012A2E /* cm_patch.c in Sources */,
-				4214F0121D75975D00012A2E /* cm_test.c in Sources */,
-				4214F0131D75975D00012A2E /* cm_trace.c in Sources */,
-				4214F0141D75975D00012A2E /* md4.c in Sources */,
-				4214F0151D75975D00012A2E /* msg.c in Sources */,
-				4214F0161D75975D00012A2E /* net_chan.c in Sources */,
-				4214F0171D75975D00012A2E /* tr_animation.c in Sources */,
-				4214F0181D75975D00012A2E /* tr_backend.c in Sources */,
-				4214F0191D75975D00012A2E /* tr_bsp.c in Sources */,
-				4214F01A1D75975D00012A2E /* tr_cmds.c in Sources */,
-				4214F01B1D75975D00012A2E /* tr_curve.c in Sources */,
-				4214F01C1D75975D00012A2E /* tr_flares.c in Sources */,
-				4214F01D1D75975D00012A2E /* tr_font.c in Sources */,
-				4214F01E1D75975D00012A2E /* tr_image.c in Sources */,
-				4214F01F1D75975D00012A2E /* tr_light.c in Sources */,
-				4214F0201D75975D00012A2E /* tr_main.c in Sources */,
-				4214F0211D75975D00012A2E /* tr_marks.c in Sources */,
-				4214F0221D75975D00012A2E /* tr_mesh.c in Sources */,
-				4214F0231D75975D00012A2E /* tr_model.c in Sources */,
-				4214F0241D75975D00012A2E /* tr_noise.c in Sources */,
-				4214F0251D75975D00012A2E /* tr_scene.c in Sources */,
-				4214F0261D75975D00012A2E /* tr_shade.c in Sources */,
-				4214F0271D75975D00012A2E /* tr_shade_calc.c in Sources */,
-				4214F0281D75975D00012A2E /* tr_shader.c in Sources */,
-				4214F0291D75975D00012A2E /* tr_shadows.c in Sources */,
-				4214F02A1D75975D00012A2E /* tr_sky.c in Sources */,
-				4214F02B1D75975D00012A2E /* tr_surface.c in Sources */,
-				4214F02C1D75975D00012A2E /* tr_world.c in Sources */,
-				4214F02D1D75975D00012A2E /* sv_bot.c in Sources */,
-				4214F02E1D75975D00012A2E /* sv_ccmds.c in Sources */,
-				4214F02F1D75975D00012A2E /* sv_client.c in Sources */,
-				4214F0301D75975D00012A2E /* sv_game.c in Sources */,
-				4214F0311D75975D00012A2E /* sv_init.c in Sources */,
-				4214F0321D75975D00012A2E /* sv_main.c in Sources */,
-				4214F0331D75975D00012A2E /* sv_net_chan.c in Sources */,
-				4214F0341D75975D00012A2E /* sv_snapshot.c in Sources */,
-				4214F0351D75975D00012A2E /* sv_world.c in Sources */,
-				4214F0361D75975D00012A2E /* unix_net.c in Sources */,
-				4214F0371D75975D00012A2E /* snd_adpcm.c in Sources */,
-				4214F0381D75975D00012A2E /* snd_dma.c in Sources */,
-				4214F0391D75975D00012A2E /* snd_mem.c in Sources */,
-				4214F03A1D75975D00012A2E /* snd_mix.c in Sources */,
-				4214F03B1D75975D00012A2E /* snd_wavelet.c in Sources */,
-				4214F03C1D75975D00012A2E /* splines.cpp in Sources */,
-				4214F03D1D75975D00012A2E /* q_parse.cpp in Sources */,
-				4214F03E1D75975D00012A2E /* util_str.cpp in Sources */,
-				4214F03F1D75975D00012A2E /* jmemmgr.c in Sources */,
-				4214F0401D75975D00012A2E /* jmemansi.c in Sources */,
-				4214F0411D75975D00012A2E /* jerror.c in Sources */,
-				4214F0421D75975D00012A2E /* jcapimin.c in Sources */,
-				4214F0431D75975D00012A2E /* jcomapi.c in Sources */,
-				4214F0441D75975D00012A2E /* jutils.c in Sources */,
-				4214F0451D75975D00012A2E /* jcmarker.c in Sources */,
-				4214F0461D75975D00012A2E /* jdapistd.c in Sources */,
-				4214F0471D75975D00012A2E /* jcinit.c in Sources */,
-				4214F0481D75975D00012A2E /* jcphuff.c in Sources */,
-				4214F0491D75975D00012A2E /* jchuff.c in Sources */,
-				4214F04A1D75975D00012A2E /* jcdctmgr.c in Sources */,
-				4214F04B1D75975D00012A2E /* jcsample.c in Sources */,
-				4214F04C1D75975D00012A2E /* jccolor.c in Sources */,
-				4214F04D1D75975D00012A2E /* jcprepct.c in Sources */,
-				4214F04E1D75975D00012A2E /* jccoefct.c in Sources */,
-				4214F04F1D75975D00012A2E /* jfdctflt.c in Sources */,
-				4214F0501D75975D00012A2E /* jcmaster.c in Sources */,
-				4214F0511D75975D00012A2E /* jdmaster.c in Sources */,
-				4214F0521D75975D00012A2E /* jdapimin.c in Sources */,
-				4214F0531D75975D00012A2E /* jdmarker.c in Sources */,
-				4214F0541D75975D00012A2E /* jdinput.c in Sources */,
-				4214F0551D75975D00012A2E /* jdsample.c in Sources */,
-				4214F0561D75975D00012A2E /* jddctmgr.c in Sources */,
-				4214F0571D75975D00012A2E /* jdhuff.c in Sources */,
-				4214F0581D75975D00012A2E /* jidctflt.c in Sources */,
-				4214F0591D75975D00012A2E /* jdpostct.c in Sources */,
-				4214F05A1D75975D00012A2E /* jcparam.c in Sources */,
-				4214F05B1D75975D00012A2E /* jdatasrc.c in Sources */,
-				4214F05C1D75975D00012A2E /* jdmainct.c in Sources */,
-				4214F05D1D75975D00012A2E /* jdcoefct.c in Sources */,
-				4214F05E1D75975D00012A2E /* jdcolor.c in Sources */,
-				4214F05F1D75975D00012A2E /* jcmainct.c in Sources */,
-				4214F0601D75975D00012A2E /* be_interface.c in Sources */,
-				4214F0611D75975D00012A2E /* be_ai_chat.c in Sources */,
-				4214F0621D75975D00012A2E /* l_precomp.c in Sources */,
-				4214F0631D75975D00012A2E /* l_libvar.c in Sources */,
-				4214F0641D75975D00012A2E /* l_script.c in Sources */,
-				4214F0651D75975D00012A2E /* l_memory.c in Sources */,
-				4214F0661D75975D00012A2E /* l_log.c in Sources */,
-				4214F0671D75975D00012A2E /* be_ai_gen.c in Sources */,
-				4214F0681D75975D00012A2E /* be_ea.c in Sources */,
-				4214F0691D75975D00012A2E /* be_ai_char.c in Sources */,
-				4214F06A1D75975D00012A2E /* be_ai_move.c in Sources */,
-				4214F06B1D75975D00012A2E /* be_aas_route.c in Sources */,
-				4214F06C1D75975D00012A2E /* be_aas_move.c in Sources */,
-				4214F06D1D75975D00012A2E /* be_aas_sample.c in Sources */,
-				4214F06E1D75975D00012A2E /* be_aas_bspq3.c in Sources */,
-				4214F06F1D75975D00012A2E /* be_aas_debug.c in Sources */,
-				4214F0701D75975D00012A2E /* be_aas_reach.c in Sources */,
-				4214F0711D75975D00012A2E /* be_aas_main.c in Sources */,
-				4214F0721D75975D00012A2E /* be_ai_goal.c in Sources */,
-				4214F0731D75975D00012A2E /* be_ai_weight.c in Sources */,
-				4214F0741D75975D00012A2E /* be_aas_optimize.c in Sources */,
-				4214F0751D75975D00012A2E /* be_aas_routealt.c in Sources */,
-				4214F0761D75975D00012A2E /* l_struct.c in Sources */,
-				4214F0771D75975D00012A2E /* l_crc.c in Sources */,
-				4214F0781D75975D00012A2E /* be_ai_weap.c in Sources */,
-				4214F0791D75975D00012A2E /* be_aas_file.c in Sources */,
-				4214F07A1D75975D00012A2E /* be_aas_entity.c in Sources */,
-				4214F07B1D75975D00012A2E /* be_aas_cluster.c in Sources */,
-				4214F07C1D75975D00012A2E /* macosx_display.m in Sources */,
-				4214F07D1D75975D00012A2E /* macosx_glsmp_mutex.m in Sources */,
-				4214F07E1D75975D00012A2E /* huffman.c in Sources */,
-				4214F07F1D75975D00012A2E /* vm_ppc_new.c in Sources */,
-				4214F0801D75975D00012A2E /* cm_polylib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3199,9 +2399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4214F1401D75975E00012A2E /* vm.c in Sources */,
+				42EB92131D75B5F3005D251D /* vm_x86.c in Sources */,
 				4214F13E1D75975E00012A2E /* vm_interpreted.c in Sources */,
 				4214F13F1D75975E00012A2E /* unzip.c in Sources */,
-				4214F1401D75975E00012A2E /* vm.c in Sources */,
 				4214F1411D75975E00012A2E /* net_chan.c in Sources */,
 				4214F1421D75975E00012A2E /* msg.c in Sources */,
 				4214F1431D75975E00012A2E /* md4.c in Sources */,
@@ -3323,139 +2524,6 @@
 				4214F1B71D75975E00012A2E /* Q3Controller.m in Sources */,
 				4214F1B81D75975E00012A2E /* macosx_timers.m in Sources */,
 				4214F1B91D75975E00012A2E /* null_client.c in Sources */,
-				4214F1BA1D75975E00012A2E /* vm_ppc_new.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4214F1FD1D75975E00012A2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4214F1FE1D75975E00012A2E /* vm_interpreted.c in Sources */,
-				4214F1FF1D75975E00012A2E /* unzip.c in Sources */,
-				4214F2001D75975E00012A2E /* vm.c in Sources */,
-				4214F2011D75975E00012A2E /* net_chan.c in Sources */,
-				4214F2021D75975E00012A2E /* msg.c in Sources */,
-				4214F2031D75975E00012A2E /* md4.c in Sources */,
-				4214F2041D75975E00012A2E /* huffman.c in Sources */,
-				4214F2051D75975E00012A2E /* files.c in Sources */,
-				4214F2061D75975E00012A2E /* cvar.c in Sources */,
-				4214F2071D75975E00012A2E /* common.c in Sources */,
-				4214F2081D75975E00012A2E /* cmd.c in Sources */,
-				4214F2091D75975E00012A2E /* cm_trace.c in Sources */,
-				4214F20A1D75975E00012A2E /* cm_test.c in Sources */,
-				4214F20B1D75975E00012A2E /* cm_polylib.c in Sources */,
-				4214F20C1D75975E00012A2E /* cm_patch.c in Sources */,
-				4214F20D1D75975E00012A2E /* cm_load.c in Sources */,
-				4214F20E1D75975E00012A2E /* sv_bot.c in Sources */,
-				4214F20F1D75975E00012A2E /* sv_ccmds.c in Sources */,
-				4214F2101D75975E00012A2E /* sv_client.c in Sources */,
-				4214F2111D75975E00012A2E /* sv_game.c in Sources */,
-				4214F2121D75975E00012A2E /* sv_init.c in Sources */,
-				4214F2131D75975E00012A2E /* sv_main.c in Sources */,
-				4214F2141D75975E00012A2E /* sv_net_chan.c in Sources */,
-				4214F2151D75975E00012A2E /* sv_snapshot.c in Sources */,
-				4214F2161D75975E00012A2E /* sv_world.c in Sources */,
-				4214F2171D75975E00012A2E /* unix_net.c in Sources */,
-				4214F2181D75975E00012A2E /* unix_shared.c in Sources */,
-				4214F2191D75975E00012A2E /* q_parse.cpp in Sources */,
-				4214F21A1D75975E00012A2E /* splines.cpp in Sources */,
-				4214F21B1D75975E00012A2E /* util_str.cpp in Sources */,
-				4214F21C1D75975E00012A2E /* tr_animation.c in Sources */,
-				4214F21D1D75975E00012A2E /* tr_backend.c in Sources */,
-				4214F21E1D75975E00012A2E /* tr_bsp.c in Sources */,
-				4214F21F1D75975E00012A2E /* tr_cmds.c in Sources */,
-				4214F2201D75975E00012A2E /* tr_curve.c in Sources */,
-				4214F2211D75975E00012A2E /* tr_flares.c in Sources */,
-				4214F2221D75975E00012A2E /* tr_font.c in Sources */,
-				4214F2231D75975E00012A2E /* tr_image.c in Sources */,
-				4214F2241D75975E00012A2E /* tr_init.c in Sources */,
-				4214F2251D75975E00012A2E /* tr_light.c in Sources */,
-				4214F2261D75975E00012A2E /* tr_main.c in Sources */,
-				4214F2271D75975E00012A2E /* tr_marks.c in Sources */,
-				4214F2281D75975E00012A2E /* tr_mesh.c in Sources */,
-				4214F2291D75975E00012A2E /* tr_model.c in Sources */,
-				4214F22A1D75975E00012A2E /* tr_noise.c in Sources */,
-				4214F22B1D75975E00012A2E /* tr_scene.c in Sources */,
-				4214F22C1D75975E00012A2E /* tr_shade.c in Sources */,
-				4214F22D1D75975E00012A2E /* tr_shade_calc.c in Sources */,
-				4214F22E1D75975E00012A2E /* tr_shader.c in Sources */,
-				4214F22F1D75975E00012A2E /* tr_shadows.c in Sources */,
-				4214F2301D75975E00012A2E /* tr_sky.c in Sources */,
-				4214F2311D75975E00012A2E /* tr_surface.c in Sources */,
-				4214F2321D75975E00012A2E /* tr_world.c in Sources */,
-				4214F2331D75975E00012A2E /* jcapimin.c in Sources */,
-				4214F2341D75975E00012A2E /* jccoefct.c in Sources */,
-				4214F2351D75975E00012A2E /* jccolor.c in Sources */,
-				4214F2361D75975E00012A2E /* jcdctmgr.c in Sources */,
-				4214F2371D75975E00012A2E /* jchuff.c in Sources */,
-				4214F2381D75975E00012A2E /* jcinit.c in Sources */,
-				4214F2391D75975E00012A2E /* jcmainct.c in Sources */,
-				4214F23A1D75975E00012A2E /* jcmarker.c in Sources */,
-				4214F23B1D75975E00012A2E /* jcmaster.c in Sources */,
-				4214F23C1D75975E00012A2E /* jcomapi.c in Sources */,
-				4214F23D1D75975E00012A2E /* jcparam.c in Sources */,
-				4214F23E1D75975E00012A2E /* jcphuff.c in Sources */,
-				4214F23F1D75975E00012A2E /* jcprepct.c in Sources */,
-				4214F2401D75975E00012A2E /* jcsample.c in Sources */,
-				4214F2411D75975E00012A2E /* jdapimin.c in Sources */,
-				4214F2421D75975E00012A2E /* jdapistd.c in Sources */,
-				4214F2431D75975E00012A2E /* jdatasrc.c in Sources */,
-				4214F2441D75975E00012A2E /* jdcoefct.c in Sources */,
-				4214F2451D75975E00012A2E /* jdcolor.c in Sources */,
-				4214F2461D75975E00012A2E /* jddctmgr.c in Sources */,
-				4214F2471D75975E00012A2E /* jdhuff.c in Sources */,
-				4214F2481D75975E00012A2E /* jdinput.c in Sources */,
-				4214F2491D75975E00012A2E /* jdmainct.c in Sources */,
-				4214F24A1D75975E00012A2E /* jdmarker.c in Sources */,
-				4214F24B1D75975E00012A2E /* jdmaster.c in Sources */,
-				4214F24C1D75975E00012A2E /* jdsample.c in Sources */,
-				4214F24D1D75975E00012A2E /* jdpostct.c in Sources */,
-				4214F24E1D75975E00012A2E /* jerror.c in Sources */,
-				4214F24F1D75975E00012A2E /* jfdctflt.c in Sources */,
-				4214F2501D75975E00012A2E /* jidctflt.c in Sources */,
-				4214F2511D75975E00012A2E /* jmemansi.c in Sources */,
-				4214F2521D75975E00012A2E /* jmemmgr.c in Sources */,
-				4214F2531D75975E00012A2E /* jutils.c in Sources */,
-				4214F2541D75975E00012A2E /* q_math.c in Sources */,
-				4214F2551D75975E00012A2E /* q_shared.c in Sources */,
-				4214F2561D75975E00012A2E /* be_aas_bspq3.c in Sources */,
-				4214F2571D75975E00012A2E /* be_aas_cluster.c in Sources */,
-				4214F2581D75975E00012A2E /* be_aas_debug.c in Sources */,
-				4214F2591D75975E00012A2E /* be_aas_entity.c in Sources */,
-				4214F25A1D75975E00012A2E /* be_aas_file.c in Sources */,
-				4214F25B1D75975E00012A2E /* be_aas_main.c in Sources */,
-				4214F25C1D75975E00012A2E /* be_aas_move.c in Sources */,
-				4214F25D1D75975E00012A2E /* be_aas_optimize.c in Sources */,
-				4214F25E1D75975E00012A2E /* be_aas_reach.c in Sources */,
-				4214F25F1D75975E00012A2E /* be_aas_route.c in Sources */,
-				4214F2601D75975E00012A2E /* be_aas_routealt.c in Sources */,
-				4214F2611D75975E00012A2E /* be_aas_sample.c in Sources */,
-				4214F2621D75975E00012A2E /* be_ai_char.c in Sources */,
-				4214F2631D75975E00012A2E /* be_ai_chat.c in Sources */,
-				4214F2641D75975E00012A2E /* be_ai_gen.c in Sources */,
-				4214F2651D75975E00012A2E /* be_ai_goal.c in Sources */,
-				4214F2661D75975E00012A2E /* be_ai_move.c in Sources */,
-				4214F2671D75975E00012A2E /* be_ai_weap.c in Sources */,
-				4214F2681D75975E00012A2E /* be_ai_weight.c in Sources */,
-				4214F2691D75975E00012A2E /* be_ea.c in Sources */,
-				4214F26A1D75975E00012A2E /* be_interface.c in Sources */,
-				4214F26B1D75975E00012A2E /* l_crc.c in Sources */,
-				4214F26C1D75975E00012A2E /* l_libvar.c in Sources */,
-				4214F26D1D75975E00012A2E /* l_log.c in Sources */,
-				4214F26E1D75975E00012A2E /* l_memory.c in Sources */,
-				4214F26F1D75975E00012A2E /* l_precomp.c in Sources */,
-				4214F2701D75975E00012A2E /* l_script.c in Sources */,
-				4214F2711D75975E00012A2E /* l_struct.c in Sources */,
-				4214F2721D75975E00012A2E /* macosx_display.m in Sources */,
-				4214F2731D75975E00012A2E /* macosx_glimp.m in Sources */,
-				4214F2741D75975E00012A2E /* macosx_glsmp_mutex.m in Sources */,
-				4214F2751D75975E00012A2E /* macosx_input.m in Sources */,
-				4214F2761D75975E00012A2E /* macosx_sys.m in Sources */,
-				4214F2771D75975E00012A2E /* Q3Controller.m in Sources */,
-				4214F2781D75975E00012A2E /* macosx_timers.m in Sources */,
-				4214F2791D75975E00012A2E /* null_client.c in Sources */,
-				4214F27A1D75975E00012A2E /* vm_ppc_new.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3465,14 +2533,13 @@
 		4214EFB11D75975D00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 					SMP,
@@ -3509,12 +2576,11 @@
 		4214EFB21D75975D00012A2E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 					SMP,
@@ -3547,7 +2613,6 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 					SMP,
@@ -3573,130 +2638,10 @@
 			};
 			name = Default;
 		};
-		4214F08A1D75975D00012A2E /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-					QGL_CHECK_GL_ERRORS,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_USE_GCC3_PFE_SUPPORT = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Quake3_G4__Application___Upgraded_.plist";
-				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/QUAKE3/CODE/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				NO_OPT_CFLAGS = "-O0 -fno-inline -fno-inline-functions";
-				OTHER_CFLAGS = (
-					"-force_cpusubtype_ALL",
-					"-Wall",
-					"$(NO_OPT_CFLAGS)",
-					"$(COMMON_CFLAGS)",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "Quake3 G4";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wno-long-double",
-					"-Wall",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4214F08B1D75975D00012A2E /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_USE_GCC3_PFE_SUPPORT = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Quake3_G4__Application___Upgraded_.plist";
-				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/QUAKE3/CODE/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				OTHER_CFLAGS = "-force_cpusubtype_ALL";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "Quake3 G4";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wno-long-double",
-					"-Wall",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		4214F08C1D75975D00012A2E /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_USE_GCC3_PFE_SUPPORT = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Quake3_G4__Application___Upgraded_.plist";
-				INSTALL_PATH = "/Users/Shared/$(USER)/InstalledProducts";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/QUAKE3/CODE/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				OTHER_CFLAGS = "-force_cpusubtype_ALL";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "Quake3 G4";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wno-long-double",
-					"-Wall",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
-		};
 		4214F0C11D75975E00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3736,7 +2681,7 @@
 		4214F0C21D75975E00012A2E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -3793,7 +2738,7 @@
 		4214F0E91D75975E00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3833,7 +2778,7 @@
 		4214F0EA1D75975E00012A2E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -3890,7 +2835,7 @@
 		4214F1041D75975E00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -3926,7 +2871,7 @@
 		4214F1051D75975E00012A2E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "Info-ui__Upgraded_.plist";
@@ -3977,14 +2922,13 @@
 		4214F1C41D75975E00012A2E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEDICATED,
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 					QGL_CHECK_GL_ERRORS,
@@ -4018,13 +2962,12 @@
 		4214F1C51D75975E00012A2E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
+				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -force_cpusubtype_ALL\n";
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEDICATED,
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 				);
@@ -4057,7 +3000,6 @@
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEDICATED,
-					MACOS_X,
 					BOTLIB,
 					MISSIONPACK,
 				);
@@ -4082,126 +3024,11 @@
 			};
 			name = Default;
 		};
-		4214F2841D75975E00012A2E /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL";
-				COPY_PHASE_STRIP = NO;
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-					QGL_CHECK_GL_ERRORS,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/Quake3/code/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				NO_OPT_CFLAGS = "-O0 -fno-inline -fno-inline-functions";
-				OTHER_CFLAGS = (
-					"-force_cpusubtype_ALL",
-					"-falign-loops=16",
-					"-falign-jumps=16",
-					"-fstrict-aliasing",
-					"-Wall",
-					"$(NO_OPT_CFLAGS)",
-					"$(COMMON_CFLAGS)",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Q3DedicatedServer;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4214F2851D75975E00012A2E /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMMON_CFLAGS = "-DMISSIONPACK -DBOTLIB -DMACOS_X -force_cpusubtype_ALL\n";
-				COPY_PHASE_STRIP = YES;
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/Quake3/code/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				OTHER_CFLAGS = (
-					"-force_cpusubtype_ALL",
-					"-falign-loops=16",
-					"-falign-jumps=16",
-					"-fstrict-aliasing",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Q3DedicatedServer;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		4214F2861D75975E00012A2E /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_ALTIVEC_EXTENSIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MACOS_X,
-					BOTLIB,
-					MISSIONPACK,
-					SMP,
-				);
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = (
-					"\\\"/Users/zaphod/Quake3/code/macosx/GameRanger\\ SDK/Libraries\\\"",
-				);
-				OTHER_CFLAGS = (
-					"-force_cpusubtype_ALL",
-					"-falign-loops=16",
-					"-falign-jumps=16",
-					"-fstrict-aliasing",
-				);
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = Q3DedicatedServer;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Default;
-		};
 		4278C4E11D754F460093B7F2 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Development;
@@ -4209,6 +3036,8 @@
 		4278C4E21D754F460093B7F2 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Deployment;
@@ -4216,6 +3045,8 @@
 		4278C4E31D754F460093B7F2 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Default;
@@ -4229,16 +3060,6 @@
 				4214EFB11D75975D00012A2E /* Development */,
 				4214EFB21D75975D00012A2E /* Deployment */,
 				4214EFB31D75975D00012A2E /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		4214F0891D75975D00012A2E /* Build configuration list for PBXNativeTarget "Quake3 G4 (Application) (Upgraded)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4214F08A1D75975D00012A2E /* Development */,
-				4214F08B1D75975D00012A2E /* Deployment */,
-				4214F08C1D75975D00012A2E /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
@@ -4279,16 +3100,6 @@
 				4214F1C41D75975E00012A2E /* Development */,
 				4214F1C51D75975E00012A2E /* Deployment */,
 				4214F1C61D75975E00012A2E /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		4214F2831D75975E00012A2E /* Build configuration list for PBXNativeTarget "Dedicated Server G4 (Upgraded)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4214F2841D75975E00012A2E /* Development */,
-				4214F2851D75975E00012A2E /* Deployment */,
-				4214F2861D75975E00012A2E /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;

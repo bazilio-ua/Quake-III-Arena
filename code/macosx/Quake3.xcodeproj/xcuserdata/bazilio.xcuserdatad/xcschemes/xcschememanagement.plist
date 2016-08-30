@@ -9,20 +9,10 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Dedicated Server G4 (Upgraded).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>14</integer>
-		</dict>
 		<key>Quake3 (Application) (Upgraded).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
-		</dict>
-		<key>Quake3 G4 (Application) (Upgraded).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
 		</dict>
 		<key>cgame (Upgraded).xcscheme</key>
 		<dict>
