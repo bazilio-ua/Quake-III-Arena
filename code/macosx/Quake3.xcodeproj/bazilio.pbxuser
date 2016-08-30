@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+	00F5ED38FEBA95B7C697A12F /* qagame */ = {
+		activeExec = 0;
+	};
+	00F5ED90FEBA9615C697A12F /* cgame */ = {
+		activeExec = 0;
+	};
+	016EAE0300B4BDD1C697A10E /* ui */ = {
+		activeExec = 0;
+	};
+	0170304B00B4885DC697A10E /* Dedicated Server */ = {
+		activeExec = 0;
+		executables = (
+			4278C4CD1D754F450093B7F2 /* Dedicated Server */,
+		);
+	};
+	0170311C00B49352C697A10E /* All */ = {
+		activeExec = 0;
+	};
+	0654BA41FE8ECEE0C697A12F /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Development;
+		activeExecutable = 4278C4CB1D754F450093B7F2 /* Quake3 (Application) */;
+		activeTarget = 0170311C00B49352C697A10E /* All */;
+		codeSenseManager = 4278C5061D754F460093B7F2 /* Code sense */;
+		executables = (
+			4278C4CB1D754F450093B7F2 /* Quake3 (Application) */,
+			4278C4CC1D754F450093B7F2 /* Quake3 G4 (Application) */,
+			4278C4CD1D754F450093B7F2 /* Dedicated Server */,
+			4278C4CE1D754F450093B7F2 /* Dedicated Server G4 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 494227269;
+			PBXWorkspaceStateSaveDate = 494227269;
+		};
+		sourceControlManager = 4278C5051D754F460093B7F2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0654BA5CFE8ECEE0C697A12F /* Quake3 (Application) */ = {
+		activeExec = 0;
+		executables = (
+			4278C4CB1D754F450093B7F2 /* Quake3 (Application) */,
+		);
+	};
+	4278C4CB1D754F450093B7F2 /* Quake3 (Application) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Quake3 (Application)";
+		sourceDirectories = (
+		);
+	};
+	4278C4CC1D754F450093B7F2 /* Quake3 G4 (Application) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Quake3 G4 (Application)";
+		sourceDirectories = (
+		);
+	};
+	4278C4CD1D754F450093B7F2 /* Dedicated Server */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Dedicated Server";
+		sourceDirectories = (
+		);
+	};
+	4278C4CE1D754F450093B7F2 /* Dedicated Server G4 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Dedicated Server G4";
+		sourceDirectories = (
+		);
+	};
+	4278C5051D754F460093B7F2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4278C5061D754F460093B7F2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4FF0904804896C0E00030DA8 /* Quake3 G4 (Application) */ = {
+		activeExec = 0;
+		executables = (
+			4278C4CC1D754F450093B7F2 /* Quake3 G4 (Application) */,
+		);
+	};
+	4FF0912704896C1600030DA8 /* Dedicated Server G4 */ = {
+		activeExec = 0;
+		executables = (
+			4278C4CE1D754F450093B7F2 /* Dedicated Server G4 */,
+		);
+	};
+}
